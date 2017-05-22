@@ -4,7 +4,5 @@ title: Planning
 weight: 40
 
 ---
-
-
 <span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;">Overview</span>
 

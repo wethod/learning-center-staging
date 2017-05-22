@@ -5,8 +5,6 @@ type: index
 weight: 0
 
 ---
-
-
 ## A Lean Multi-Project Management Platform
 
 WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo. L’obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.

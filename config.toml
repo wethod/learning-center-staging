@@ -6,50 +6,47 @@ metadataformat = "yaml"
 publishDir = "docs"
 theme = "hugo-material-docs"
 title = "WETHOD / Learning Center"
-
 [blackfriday]
-	fractions = true
-	plainIDAnchors = true
-	smartDashes = true
-	smartypants = true
-
+fractions = true
+plainIDAnchors = true
+smartDashes = true
+smartypants = true
 [[menu.main]]
-	name = "Planning"
-	url = "planning/index/"
-	weight = 3
+name = "Getting started"
+url = "getting-started/index/"
+weight = 1
 [[menu.main]]
-	name = "Pipeline"
-	url = "pipeline/index/"
-	weight = 2
+name = "Dashboard"
+url = "dashboard/index/"
+weight = 2
 [[menu.main]]
-	name = "Dashboard"
-	url = "dashboard/index/"
-	weight = 1
+name = "Pipeline"
+url = "pipeline/index/"
+weight = 3
 [[menu.main]]
-	name = "Getting started"
-	url = "getting-started/index/"
-	weight = 4
-	
+name = "Planning"
+url = "planning/index/"
+weight = 4
 [params]
-	author = "Digitalcraftsman"
-	copyright = "Released under the MIT license"
-	custom_css = []
-	custom_js = []
-	description = "A material design theme for documentations."
-	favicon = "images/favicon.ico"
-	highlight_css = ""
-	logo = "images/logo.png"
-	permalink = "#"
-	provider = ""
-	repo_url = ""
-	version = ""
-	[params.font]
-		code = "Ubuntu Mono"
-		text = "Ubuntu"
-	[params.palette]
-		accent = "teal"
-		primary = "black"
+author = "Digitalcraftsman"
+copyright = "Released under the MIT license"
+custom_css = []
+custom_js = []
+description = "A material design theme for documentations."
+favicon = "images/favicon.ico"
+highlight_css = ""
+logo = "images/logo.png"
+permalink = "#"
+provider = ""
+repo_url = ""
+version = ""
+[params.font]
+code = "Ubuntu Mono"
+text = "Ubuntu"
+[params.palette]
+accent = "teal"
+primary = "black"
 [social]
-	email = "info@wethod.com"
-	github = ""
-	twitter = "wethodhq"
+email = "info@wethod.com"
+github = ""
+twitter = "wethodhq"
