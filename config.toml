@@ -12,10 +12,6 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.main]]
-name = "Friday"
-url = "/friday/index"
-weight = 1
-[[menu.main]]
 name = "Getting started"
 url = "getting-started/index/"
 weight = 1
@@ -31,6 +27,10 @@ weight = 3
 name = "Planning"
 url = "planning/index/"
 weight = 4
+[[menu.main]]
+name = "Friday"
+url = "friday/index/"
+weight = 5
 [params]
 author = "Digitalcraftsman"
 copyright = "Released under the MIT license"
