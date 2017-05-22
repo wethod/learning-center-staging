@@ -2,9 +2,9 @@
 Here you can find all the files __needed to build__ the site "WETHOD Learning Center". 
 ## Details
 * The site is statically generated using [Hugo](https://gohugo.io/);
-* The site is hosted on [GitHub Pages](https://pages.github.com/);
-* If you need a visual editor, you can use [Forestry.io](https://forestry.io);
-* The served files are in another repo. We need to mantain different repositories for source code and served files because of Forestry.io.
+* The site is hosted on [GitHub Pages](https://pages.github.com/) at https://wethod.github.io;
+* If you need a visual editor and/or a simple CMS, you can use [Forestry.io](https://forestry.io);
+* The served files are in [another repo](https://github.com/wethod/wethod.github.io). We need to mantain different repositories for source code and served files because of how Forestry.io works.
 ## How to edit 
 Using Forestry.io:
 1. Login with the WETHOD account;
