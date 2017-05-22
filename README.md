@@ -2,7 +2,7 @@
 Here you can find all the files needed to build the site "WETHOD Learning Center". 
 ## Details
 * The site is statically generated using [Hugo](https://gohugo.io/);
-* The site is hosted on GitHub Pages;
+* The site is hosted on [GitHub Pages](https://pages.github.com/);
 * If you need a visual editor, you can use [Forestry.io](https://forestry.io);
 * The served files are in another repo. We need to mantain different repositories for source code and served files because of Forestry.io.
 ## How to edit 
@@ -14,9 +14,7 @@ Using Forestry.io:
 
 Manually:
 1. Clone this repository;
-2. Clone the repository which contains the served files;
-3. Edit content;
-4. Build with Hugo;
-5. Push the changes to the source code;
-6. Push the "public" folder to the repository which contains the served files;
-7. Refresh the github.io page to see the changes.
+2. Edit content;
+3. Push the changes;
+4. Forestry.io will detect new commits to this repository and will auto-deploy the site;
+5. Refresh the github.io page to see the changes.
