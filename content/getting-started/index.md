@@ -1,11 +1,9 @@
 ---
 date: '2016-03-09T00:11:02+01:00'
 title: Getting Started
-weight: 100
+weight: 10
 
 ---
-
-
 ## Installation WETHOD 8'9e'23457325732ì45
 
 ### Installing Hugo-sfgsgs
