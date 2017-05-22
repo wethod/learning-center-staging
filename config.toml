@@ -12,6 +12,10 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.main]]
+name = "Friday"
+url = "friday/index/"
+weight = 5
+[[menu.main]]
 name = "Getting started"
 url = "getting-started/index/"
 weight = 1
@@ -27,16 +31,12 @@ weight = 3
 name = "Planning"
 url = "planning/index/"
 weight = 4
-[[menu.main]]
-name = "Friday"
-url = "friday/index/"
-weight = 5
-[[menu.other]]
-name = "FAQ"
-url = "faq/index/"
 [[menu.other]]
 name = "Glossary"
 url = "glossary/index/"
+[[menu.other]]
+name = "FAQ"
+url = "faq/index/"
 [params]
 author = "Digitalcraftsman"
 copyright = "Released under the MIT license"
@@ -60,4 +60,3 @@ primary = "black"
 email = "info@wethod.com"
 github = ""
 twitter = "wethodhq"
-

@@ -1,6 +1,7 @@
 ---
-date: 2017-05-22T17:31:29+02:00
+date: '2017-05-22T17:31:29+02:00'
 title: Glossary
+
 ---
 ### Project Status
 Valore che indica la stima a finire per un certo progetto. In pratica esprime il numero di giorni mancanti alla fine del progetto.
