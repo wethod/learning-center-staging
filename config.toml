@@ -12,6 +12,10 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.main]]
+name = "Friday"
+url = "/friday/index"
+weight = 1
+[[menu.main]]
 name = "Getting started"
 url = "getting-started/index/"
 weight = 1
