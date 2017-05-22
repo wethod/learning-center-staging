@@ -10,7 +10,7 @@ Using Forestry.io:
 1. Login with the WETHOD account;
 2. In the section "My Sites" choose "wethod-support";
 3. Edit content;
-4. Refresh the github.io page (clearing cache) to see the changes.
+4. Refresh the github.io page (clearing cache using `⌘ + MAIUSC + R`) to see the changes.
 
 Manually:
 1. Clone this repository;
