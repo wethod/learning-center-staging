@@ -11,6 +11,7 @@ Using Forestry.io:
 2. In the section "My Sites" choose "wethod-support";
 3. Edit content;
 4. Refresh the github.io page (clearing cache) to see the changes.
+
 Manually:
 1. Clone this repository;
 2. Clone the repository which contains the served files;
