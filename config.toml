@@ -1,4 +1,4 @@
-baseurl = "https://wethod.github.io/hugo-wethod-ghpages/"
+baseurl = "https://wethod.github.io/"
 canonifyurls = true
 googleAnalytics = ""
 languageCode = "en-us"
