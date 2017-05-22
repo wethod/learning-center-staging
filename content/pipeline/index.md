@@ -6,12 +6,12 @@ weight: 30
 ---
 
 
-### Overview
+## Overview
 
 Add a new widget to your dashboard is so easy: just click on the "+" and pick one from the list of the available widgets.
 
-### Basket
+## Basket
 
-### Projects
+## Projects
 
-### Programs
+## Programs
