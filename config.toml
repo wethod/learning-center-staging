@@ -31,6 +31,12 @@ weight = 4
 name = "Friday"
 url = "friday/index/"
 weight = 5
+[[menu.other]]
+name = "FAQ"
+url = "faq/index/"
+[[menu.other]]
+name = "Glossary"
+url = "glossary/index/"
 [params]
 author = "Digitalcraftsman"
 copyright = "Released under the MIT license"
@@ -54,3 +60,4 @@ primary = "black"
 email = "info@wethod.com"
 github = ""
 twitter = "wethodhq"
+
