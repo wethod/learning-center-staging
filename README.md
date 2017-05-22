@@ -1,5 +1,5 @@
 # learning-center-source
-Here you can find all the files needed to build the site "WETHOD Learning Center". 
+Here you can find all the files __needed to build__ the site "WETHOD Learning Center". 
 ## Details
 * The site is statically generated using [Hugo](https://gohugo.io/);
 * The site is hosted on [GitHub Pages](https://pages.github.com/);
