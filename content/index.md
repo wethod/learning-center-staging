@@ -5,45 +5,48 @@ type: index
 weight: 0
 
 ---
-## A Lean Multi-Project Management Platform
 
-WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo. L’obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
+
+## In Breve
+
+WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo.
+L'obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
 
 Il risultato è un sistema integrato che gestisce tutte le informazioni essenziali a un’organizzazione orientata ai progetti: budget, pianificazione, timesheet e report delle attività.
 
 Ciò permette di creare un sistema dove tutti collaborano e mantengono le informazioni sempre aggiornate, un sistema che premia i comportamenti virtuosi e penalizza gli altri.
 
-![Material Screenshot](/images/screen.png)
+## Cosa Richiede
 
-Material is very lightweight – it is built from scratch using Javascript and
-CSS that weighs less than 30kb (minified, gzipped and excluding Google Fonts
-and Analytics). Yet, it is highly customizable and degrades gracefully in older
-browsers.
+Sono necessari pochi elementi (ciascuno dei quali ad un livello di dettaglio minimo):
 
-## Quick start
+* I [budget di progetto](guide/budget-it);
 
-Install with `git`:
+* Il timesheet settimanale;
 
-```
-git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
+* La stima a finire (ovvero: quanti giorni mancano a finire?).
 
-```
+*La responsabilità di garantire che ogni elemento sia aggiornato viene distribuita tra i membri.*
 
-## Features
+La raccolta di queste informazioni non appesantisce nessuna organizzazione perché in un modo o nell’altro tutte le gestiscono, molto spesso con diversi prodotti. Si tratta solo di semplificare e integrare tutto il processo sotto un unico strumento.
 
-*
+## Cosa Produce
 
-*
+Dai pochi elementi raccolti si ricavano automaticamente e settimanalmente molte informazioni:
 
-*
+* Forecast di ricavi attesi per periodo VS obiettivi;
 
-*
+* Stato di salute dei progetti;
 
-See the [getting started guide]({{< relref "getting-started/index.md" >}}) for instructions how to get
-it up and running.
+* Valore della produzione;
 
-## Acknowledgements
+* Analisi di produttività per progetto;
 
-Last but not least a big thank you to [Martin Donath](https://github.com/squidfunk). He created the original [Material theme](https://github.com/squidfunk/mkdocs-material) for Hugo's companion [MkDocs](http://www.mkdocs.org/). This port wouldn't be possible without him.
+* Analisi di redditività di dettaglio per progetto e per programma di progetti correlati;
 
-Furthermore, thanks to [Steve Francia](https://gihub.com/spf13) for creating Hugo and the [awesome community](https://github.com/spf13/hugo/graphs/contributors) around the project.
+* Piano di fatturazione;
+
+* Analisi di equilibrio finanziario: incrocio tra fatturazione e avanzamento dei progetti;
+
+* Visione aggregata di programmi di progetti con indicazione di prospetti economici e risorse impiegate e pianificate.
+
