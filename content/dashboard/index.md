@@ -4,18 +4,20 @@ title: Dashboard
 weight: 20
 
 ---
+
+
 ## Overview
 
-Let's create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace `&amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;gt;` with a general term that describes your document in detail.
+Let's create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace `section-name` with a general term that describes your document in detail.
 
 ```
-hugo new &amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;gt;/filename.md
+hugo new section-name/filename.md
 
 ```
 
-Visitors of your website will find the final document under `www.example.com/&amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;gt;/filename/`.
+Visitors of your website will find the final document under `www.example.com/&amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;gt;/filename/`.
 
-Since it's possible to have multiple content files in the same section I recommend to create at least one `index.md` file per section. This ensures that users will find an index page under `www.example.com/&amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;gt;`.
+Since it's possible to have multiple content files in the same section I recommend to create at least one `index.md` file per section. This ensures that users will find an index page under `www.example.com/section-name`.
 
 ## Widgets
 
@@ -36,4 +38,3 @@ Add a new widget to your dashboard is so easy: just click on the "**+**" and pic
 ### Productivity
 
 ### Roadrunner Index
-
