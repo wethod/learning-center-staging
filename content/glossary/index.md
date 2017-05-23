@@ -2,6 +2,7 @@
 date: '2017-05-22T17:31:29+02:00'
 title: Glossary
 weight: 200
+last: true
 
 ---
 ### Project Status

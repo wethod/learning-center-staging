@@ -1,5 +1,5 @@
 ---
-date: '2016-03-09T19:56:50+01:00'
+date: '2016-03-10T19:56:50+01:00'
 title: Dashboard
 weight: 20
 
@@ -21,7 +21,7 @@ Since it's possible to have multiple content files in the same section I recomme
 
 Add a new widget to your dashboard is so easy: just click on the "**+**" and pick one from the list of the available widgets.
 
-<img src="/uploads/2017/05/22/add-widget.gif" class=" forestry--none forestry--none forestry--right forestry--left forestry--none" style="float: none;">
+{{< img-center src="/uploads/2017/05/22/add-widget.gif" >}}
 
 ### Alerts
 

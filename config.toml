@@ -3,7 +3,6 @@ canonifyurls = true
 googleAnalytics = ""
 languageCode = "en-us"
 metadataformat = "yaml"
-publishDir = "docs"
 theme = "hugo-material-docs"
 title = "WETHOD / Learning Center"
 [blackfriday]
@@ -34,9 +33,6 @@ weight = 4
 [[menu.other]]
 name = "Glossary"
 url = "glossary/index/"
-[[menu.other]]
-name = "FAQ"
-url = "faq/index/"
 [params]
 author = "Digitalcraftsman"
 copyright = "Released under the MIT license"
