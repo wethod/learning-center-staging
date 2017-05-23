@@ -8,7 +8,7 @@ Here you can find all the files __needed to build__ the site "WETHOD Learning Ce
 ## How to edit 
 Using Forestry.io:
 1. Login with the WETHOD account;
-2. In the section "My Sites" choose "wethod-support";
+2. In the section "My Sites" choose "wethod-learning-center";
 3. Edit content;
 4. Refresh the github.io page (clearing cache using `⌘ + MAIUSC + R`) to see the changes.
 
