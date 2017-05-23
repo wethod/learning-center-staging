@@ -4,9 +4,11 @@ title: Getting Started
 weight: 10
 
 ---
-## Installation WETHOD 8'9e'23457325732ì45
 
-### Installing Hugo-sfgsgs
+
+## Installation
+
+### Installing Hugo
 
 Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases. You just need to download the [latest version](https://github.com/spf13/hugo/releases). For more information read the official [installation guides](http://gohugo.io/overview/installing/).
 
@@ -233,7 +235,7 @@ You need extend the frontmatter of each file content file in a section slightly.
 menu:
   main:
     parent: Material
-    identifier: &lt;link name&gt;
+    identifier: &amp;lt;link name&amp;gt;
     weight: 0
 
 ```
