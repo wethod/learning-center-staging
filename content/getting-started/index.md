@@ -4,8 +4,6 @@ title: Getting Started
 weight: 10
 
 ---
-
-
 ## Installation
 
 ### Installing Hugo

@@ -4,8 +4,6 @@ title: Dashboard
 weight: 20
 
 ---
-
-
 ## Overview
 
 Let's create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace `section-name` with a general term that describes your document in detail.
