@@ -11,6 +11,10 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.main]]
+name = "Reports"
+url = "/reports/index"
+weight = 1
+[[menu.main]]
 name = "Friday"
 url = "friday/index/"
 weight = 5
@@ -33,6 +37,7 @@ weight = 4
 [[menu.other]]
 name = "Glossary"
 url = "glossary/index/"
+weight = 1
 [params]
 author = "Andrea Tombolato"
 copyright = ""
