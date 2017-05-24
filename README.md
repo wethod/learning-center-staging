@@ -4,7 +4,9 @@ Here you can find all the files __needed to build__ the site "WETHOD Learning Ce
 * The site is statically generated using [Hugo](https://gohugo.io/);
 * The site is hosted on [GitHub Pages](https://pages.github.com/) with a custom domain at http://support.wethod.com;
 * If you need a visual editor and/or a simple CMS, you can use [Forestry.io](https://forestry.io);
-* The served files are in [another repo](https://github.com/wethod/wethod.github.io). We need to mantain different repositories for source code and served files because of how Forestry.io works.
+* The served files are in [another repo](https://github.com/wethod/wethod.github.io). We need to mantain different repositories for source code and served files because of how Forestry.io works;
+* The __FAQ__ section embed the [Responsa](https://goresponsa.com/) In-Page widget;
+* The __search__ functionality is obtained by using [Algolia DocSearch](https://community.algolia.com/docsearch/).
 ## How to edit 
 Using Forestry.io:
 1. Login with the WETHOD account;
