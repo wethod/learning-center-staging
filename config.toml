@@ -34,11 +34,11 @@ weight = 4
 name = "Glossary"
 url = "glossary/index/"
 [params]
-author = "Digitalcraftsman"
-copyright = "Released under the MIT license"
+author = "Andrea Tombolato"
+copyright = ""
 custom_css = []
 custom_js = []
-description = "A material design theme for documentations."
+description = "A lean multi-project management platform that fosters the autonomy and ownership of every team member at any level."
 favicon = "images/favicon.ico"
 highlight_css = ""
 logo = "images/logo.png"
