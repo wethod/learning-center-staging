@@ -11,6 +11,10 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.main]]
+name = "Finance"
+url = "/finance/index"
+weight = 7
+[[menu.main]]
 name = "Reports"
 url = "/reports/index"
 weight = 6
