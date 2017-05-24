@@ -4,7 +4,6 @@ title: FAQ
 weight: 100
 
 ---
-
 <script name="responsa-js" class="responsa-js">
 (function(q,u,e,s,t,i,o,n) {
  o=u.getElementsByTagName(e)[0];

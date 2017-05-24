@@ -10,49 +10,46 @@ fractions = true
 plainIDAnchors = true
 smartDashes = true
 smartypants = true
-
 [[menu.main]]
-name = "Getting started"
-url = "getting-started/index/"
-weight = 10
-[[menu.main]]
-name = "Dashboard"
-url = "dashboard/index/"
-weight = 20
-[[menu.main]]
-name = "Pipeline"
-url = "pipeline/index/"
-weight = 30
-[[menu.main]]
-name = "Planning"
-url = "planning/index/"
-weight = 40
-[[menu.main]]
-name = "Friday"
-url = "friday/index/"
-weight = 50
-[[menu.main]]
-name = "Reports"
-url = "reports/index/"
-weight = 60
+name = "Settings"
+url = "settings/index/"
+weight = 80
 [[menu.main]]
 name = "Finance"
 url = "finance/index/"
 weight = 70
 [[menu.main]]
-name = "Settings"
-url = "settings/index/"
-weight = 80
-
-[[menu.other]]
-name = "Glossary"
-url = "glossary/index/"
-weight = 110
+name = "Reports"
+url = "reports/index/"
+weight = 60
+[[menu.main]]
+name = "Friday"
+url = "friday/index/"
+weight = 50
+[[menu.main]]
+name = "Planning"
+url = "planning/index/"
+weight = 40
+[[menu.main]]
+name = "Pipeline"
+url = "pipeline/index/"
+weight = 30
+[[menu.main]]
+name = "Dashboard"
+url = "dashboard/index/"
+weight = 20
+[[menu.main]]
+name = "Getting started"
+url = "getting-started/index/"
+weight = 10
 [[menu.other]]
 name = "FAQ"
 url = "faq/index/"
 weight = 100
-
+[[menu.other]]
+name = "Glossary"
+url = "glossary/index/"
+weight = 110
 [params]
 author = "Andrea Tombolato"
 copyright = ""
