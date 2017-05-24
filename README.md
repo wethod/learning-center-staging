@@ -23,7 +23,8 @@ Manually:
 
 ## Good to know
 In `layout/shortcodes/` you can find useful [shortcodes](https://gohugo.io/extras/shortcodes/) that enhance Markdown's capabilities. 
+
 For example, the __img-center__ shortcode gives you the ability to insert a centered imaged directly from your Markdown:
 ```
-{{< img-center src="/uploads/2017/05/22/add-widget.gif" >}}
+{{< img-center src="my-img.jpg" >}}
 ```
