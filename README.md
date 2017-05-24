@@ -20,3 +20,10 @@ Manually:
 3. Push the changes;
 4. Forestry.io will detect new commits to this repository and will auto-deploy the site;
 5. Refresh the github.io page to see the changes.
+
+## Good to know
+In `layout/shortcodes/` you can find useful [shortcodes](https://gohugo.io/extras/shortcodes/) that enhance Markdown's capabilities. 
+For example, the __img-center__ shortcode gives you the ability to insert a centered imaged directly from your Markdown:
+```
+{{< img-center src="/uploads/2017/05/22/add-widget.gif" >}}
+```
