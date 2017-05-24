@@ -53,9 +53,7 @@ weight = 110
 [params]
 author = "Andrea Tombolato"
 copyright = ""
-custom_css = [
-	"stylesheets/custom-style.css"
-]
+custom_css = ["stylesheets/custom-style.css"]
 custom_js = []
 description = "A lean multi-project management platform that fosters the autonomy and ownership of every team member at any level."
 favicon = "images/favicon.ico"
