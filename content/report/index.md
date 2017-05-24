@@ -1,9 +1,9 @@
 ---
-date: 2017-05-24T12:01:45+02:00
+date: '2017-05-24T12:01:45+02:00'
 title: Friday
 weight: 60
----
 
+---
 ## Overview
 
 ## Budget Consumption

@@ -5,8 +5,6 @@ type: index
 weight: 0
 
 ---
-
-
 ## In Breve
 
 WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo.
