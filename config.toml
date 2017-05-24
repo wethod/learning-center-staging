@@ -1,4 +1,4 @@
-baseurl = "https://wethod.github.io/"
+baseurl = "http://support.wethod.com/"
 canonifyurls = true
 googleAnalytics = ""
 languageCode = "en-us"
