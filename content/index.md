@@ -6,7 +6,9 @@ weight: 0
 draft: true
 
 ---
-## In Breve
+
+
+## In Breve cioee+wijvweiovjqw
 
 WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo.
 L'obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
@@ -48,4 +50,3 @@ Dai pochi elementi raccolti si ricavano automaticamente e settimanalmente molte 
 * Analisi di equilibrio finanziario: incrocio tra fatturazione e avanzamento dei progetti;
 
 * Visione aggregata di programmi di progetti con indicazione di prospetti economici e risorse impiegate e pianificate.
-
