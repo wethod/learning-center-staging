@@ -27,6 +27,8 @@ Just few elements are needed in order to get things working:
 
 **The responsibility of updating each of these elements is shared among all the team members, avoiding any unnecessary administrative burden.**
 
+{{< img-center src="/uploads/2017/05/25/space-banner-1.png" >}}
+
 ## What You Get
 
 A lot of information could be extracted, weekly and automatically, from the few data you've entered in WETHOD:
@@ -48,3 +50,7 @@ A lot of information could be extracted, weekly and automatically, from the few 
 * Aggregate projects views, augmented with financial statements and planned resources;
 
 * Much more!
+
+**Thanks to its crystal clear system, week after week, month after month, WETHOD highlights people that are contributing the most to the success of the group and at the same time shows problems or inefficiencies – allowing you to react.**
+
+{{< img-center src="/uploads/2017/05/25/space-banner-2.png" >}}
