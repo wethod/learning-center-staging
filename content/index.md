@@ -7,45 +7,43 @@ weight: 0
 ---
 
 
-## In Breve
+## What It Is
 
-WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo.
-L'obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
+WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
 
-Il risultato è un sistema integrato che gestisce tutte le informazioni essenziali a un’organizzazione orientata ai progetti: budget, pianificazione, timesheet e report delle attività.
+The result is a deeply integrated system that manages all the information which are essential for a project-oriented company: budget, planning, timesheet and activity report.
 
-Ciò permette di creare un sistema dove tutti collaborano e mantengono le informazioni sempre aggiornate, un sistema che premia i comportamenti virtuosi e penalizza gli altri.
+This enables WETHOD to create a system where everybody collaborate and keep information up to date, a system that rewards who done well and warns the others.
 
-## Cosa Richiede
+## What It Needs
 
-Sono necessari pochi elementi (ciascuno dei quali ad un livello di dettaglio minimo):
+Just few elements are needed in order to get things working:
 
-* I [budget di progetto](guide/budget-it);
+* A project budget;
 
-* Il timesheet settimanale;
+* The weekly [timesheet]({{< relref "friday/index.md#timesheet" >}});
 
-* La stima a finire (ovvero: quanti giorni mancano a finire?).
+* The weekly [project status]({{< relref "friday/index.md#project-status" >}}).
 
-*La responsabilità di garantire che ogni elemento sia aggiornato viene distribuita tra i membri.*
+**The responsibility of updating each of these elements is shared among all the team members, avoiding any unnecessary administrative burden.**
 
-La raccolta di queste informazioni non appesantisce nessuna organizzazione perché in un modo o nell’altro tutte le gestiscono, molto spesso con diversi prodotti. Si tratta solo di semplificare e integrare tutto il processo sotto un unico strumento.
+## What You Get
 
-## Cosa Produce
+A lot of information could be extracted, weekly and automatically, from the few data you've entered in WETHOD:
 
-Dai pochi elementi raccolti si ricavano automaticamente e settimanalmente molte informazioni:
+* Revenue forecast vs target revenue;
 
-* Forecast di ricavi attesi per periodo VS obiettivi;
+* Projects condition;
 
-* Stato di salute dei progetti;
+* Production value;
 
-* Valore della produzione;
+* Productivity analysis by project;
 
-* Analisi di produttività per progetto;
+* Detailed profitability analysis by projects and by linked projects;
 
-* Analisi di redditività di dettaglio per progetto e per programma di progetti correlati;
+* Invoice plan;
 
-* Piano di fatturazione;
+* Financial balance analysis;
 
-* Analisi di equilibrio finanziario: incrocio tra fatturazione e avanzamento dei progetti;
-
-* Visione aggregata di programmi di progetti con indicazione di prospetti economici e risorse impiegate e pianificate.
+* Aggregate projects views, augmented with financial statements and planned resources;
+* Much more!
