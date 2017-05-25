@@ -15,6 +15,8 @@ The result is a deeply integrated system that manages all the information which 
 
 This enables WETHOD to create a system where everybody collaborate and keep information up to date, a system that rewards who done well and warns the others.
 
+{{< img-center src="/uploads/2017/05/25/wethod-banner-1.png" >}}
+
 ## What It Needs
 
 Just few elements are needed in order to get things working:
@@ -46,4 +48,5 @@ A lot of information could be extracted, weekly and automatically, from the few 
 * Financial balance analysis;
 
 * Aggregate projects views, augmented with financial statements and planned resources;
+
 * Much more!
