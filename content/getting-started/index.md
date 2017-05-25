@@ -22,4 +22,4 @@ Here we are, you are ready to start!
 
 ### An Opportunity Arises
 
-Everything starts from [Pipeline]({{< relref "pipeline/index.md" >}}).
+Everything starts from [Pipeline]({{< relref "pipeline" >}}).
