@@ -4,8 +4,6 @@ title: Pipeline
 weight: 30
 
 ---
-
-
 {{< img-center src="/uploads/2017/05/25/nav-pipeline.png" >}}
 
 ## Overview
