@@ -27,7 +27,8 @@
 			<h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
 			
 			{{ .Content }}
-
+			
+			<aside class="copyright" role="note"></aside>
 			<footer class="footer">
 				{{ partial "footer" . }}
 			</footer>
