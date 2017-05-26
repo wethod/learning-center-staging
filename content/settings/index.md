@@ -4,13 +4,22 @@ title: Settings
 weight: 80
 
 ---
+
+
 ## Tutorial
 
 ## Account
 
+Puoi cambiare nome, cognome, password.
+
+Se sei l'owner hai anche la possibilità di:
+
+* Inserire e modificare i dettagli di fatturazione;
+* Effettuare l'import dei progetti utilizzando un apposito template.
+
 ## Team
 
-Since you are a Superuser you have the super power to: <span style="font-size: 1rem;">invite people, assign specific roles and allow special permission</span>
+Since you are a Superuser you have the super power to: <span style="font-size: 1rem;">invite people, assign specific roles and allow special permissions.</span>
 
 ## Company
 
@@ -27,3 +36,5 @@ Here you can configure your company by setting:
 ## Permissions
 
 ## Switch Company
+
+Puoi cambiare compagnia se fai parte di più team con lo stesso account WETHOD.
