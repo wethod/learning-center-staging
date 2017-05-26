@@ -31,6 +31,10 @@ name = "Planning"
 url = "planning/index/"
 weight = 40
 [[menu.main]]
+name = "Budget"
+url = "budget/index/"
+weight = 31
+[[menu.main]]
 name = "Pipeline"
 url = "pipeline/index/"
 weight = 30
