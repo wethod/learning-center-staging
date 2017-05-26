@@ -15,6 +15,7 @@ Puoi cambiare nome, cognome, password.
 Se sei l'owner hai anche la possibilità di:
 
 * Inserire e modificare i dettagli di fatturazione;
+
 * Effettuare l'import dei progetti utilizzando un apposito template.
 
 ## Team
@@ -28,6 +29,7 @@ Here you can configure your company by setting:
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
 
 * **Job Order Categories**: each one of your projects must have one. It defines the category of the project which can be chargeable or not. This way you can organize your projects into any category you like according to your business practice;
+* **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 
 * **Default Areas**: these will be suggested when you're creating a new budget ore when you're adding a new area to an existing budget.
 
