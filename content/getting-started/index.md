@@ -24,8 +24,10 @@ Here we are, you are ready to start!
 
 3. Assign people to the project by using the [Planning]({{< relref "planning/index.md" >}});
 
-4. Every Friday an e-mail will remind: 
+4. Every Friday an e-mail will remind:
 	- Each project manager to compile the [Project Status]({{< relref "friday/index.md#project-status" >}}) for its projects;
-    - Each collaborator to compile the [Timesheet]({{< relref "friday/index.md#timesheet" >}}) for the projects he worked on.
+  	- Each collaborator to compile the [Timesheet]({{< relref "friday/index.md#timesheet" >}}) for the projects he worked on.
 
 When you want to check the status of your projects, just visit the [Reports]({{< relref "reports/index.md" >}}) section: we take care of aggregate the data for you, just sit down and get ready to feel the power of knowledge.
+
+The beating heart of WETHOD is the [Dashboard]({{< relref "dashboard/index.md" >}}): a customizable set of widgets that you can use to be constantly updated on the relevant information about the projects you care about the most.
