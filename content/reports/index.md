@@ -18,7 +18,7 @@ The Budget Consumption Report is an overview of all Projects in terms of resourc
 
 Using filters, you can select the Projects you want to see and explore details such as billed hours, invoiced totals, and internal and external purchase orders.
 
-{{< img-center src="/uploads/2017/05/22/bubbles_tour_01.jpg" >}}
+{{< img-center src="/uploads/2017/05/25/bubbles_tour_01.jpg" >}}
 
 ## Revenue Progress
 
@@ -49,3 +49,4 @@ Mostra le ore caricate a timesheet per tutte le persone della company, raggruppa
 ## Changelog
 
 Mostra lo storico di tutte le modifiche apportate (su valore o probabilità) a progetti in pipeline.
+
