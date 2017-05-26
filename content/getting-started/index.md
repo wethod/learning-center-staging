@@ -4,8 +4,6 @@ title: Getting Started
 weight: 10
 
 ---
-
-
 ## Warm Up
 
 Visit [app.wethod.com/registration](https://app.wethod.com/registration) to create your team and get a 14 days free trial, we don't force you to insert a credit card and you can take advantage of our tutorial.
