@@ -4,6 +4,8 @@ title: Pipeline
 weight: 30
 
 ---
+
+
 {{< img-center src="/uploads/2017/05/25/nav-pipeline.png" >}}
 
 ## Overview
@@ -36,4 +38,4 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Programs
 
-<div><p>You can use a Program to group together different projects in order to see the aggregate economic reports.<br></p></div>
+<div><p>You can use a Program to group together different projects in order to see their aggregate economic reports.<br></p></div>
