@@ -18,6 +18,14 @@ Here we are, you are ready to start!
 
 ## The Workflow
 
-### An Opportunity Arises
+1. Add a project to your [Pipeline]({{< relref "pipeline/index.md" >}});
 
-Everything starts from [Pipeline]({{< relref "pipeline/index.md" >}}).
+2. Provide a [budget]({{< relref "budget/index.md" >}}) for the project;
+
+3. Assign people to the project by using the [Planning]({{< relref "planning/index.md" >}});
+
+4. Every Friday an e-mail will remind: 
+	- Each project manager to compile the [Project Status]({{< relref "friday/index.md#project-status" >}}) for its projects;
+    - Each collaborator to compile the [Timesheet]({{< relref "friday/index.md#timesheet" >}}) for the projects he worked on.
+
+When you want to check the status of your projects, just visit the [Reports]({{< relref "reports/index.md" >}}) section: we take care of aggregate the data for you, just sit down and get ready to feel the power of knowledge.
