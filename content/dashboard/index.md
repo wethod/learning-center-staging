@@ -4,18 +4,11 @@ title: Dashboard
 weight: 20
 
 ---
+
+
 ## Overview
 
-Let's create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace `section-name` with a general term that describes your document in detail.
-
-```
-hugo new section-name/filename.md
-
-```
-
-Visitors of your website will find the final document under `www.example.com/&amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;gt;/filename/`.
-
-Since it's possible to have multiple content files in the same section I recommend to create at least one `index.md` file per section. This ensures that users will find an index page under `www.example.com/section-name`.
+The Dashboard is basically a set of widget any one of which can be added, removed and customized by the user.
 
 ## Widgets
 
@@ -25,14 +18,29 @@ Add a new widget to your dashboard is so easy: just click on the "**+**" and pic
 
 ### Alerts
 
+This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
+
+* Red alerts have an high priority and must be solved as soon as possible;
+* Yellow alerts have a low priority and can be seen more as advices.
+
+Hovering on an alert will display a description of the problem.
+
 ### Revenue Clock
+
+permette di confrontare il valore totale dei progetti in pipeline (ponderato sulla loro probabilità) con il production value.
 
 ### Invoices
 
-### Bubbles / Status
+mostra la lista di tutte le fatture che devono essere emesse , in rosso passato giallo futuro/attuale. Questa lista è basata sugli invoice plan indicati in pipeline.
 
-### Bubbles / Invoiced
+### Budget Consumption
 
-### Productivity
+rapresentazione del budget consumption
+
+### Revenue Progress
+
+rappresentazione del revenue progress
 
 ### Roadrunner Index
+
+rappresentazione del roadrunner index
