@@ -4,6 +4,8 @@ title: Pipeline
 weight: 30
 
 ---
+
+
 {{< img-center src="/uploads/2017/05/25/nav-pipeline.png" >}}
 
 ## Overview
@@ -30,7 +32,7 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Projects
 
-<div><p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p><p>A Project can furthermore have an invoice plan and a budget.</p><p><b>Billable Projects must have a probability between 100%.</b></p></div>
+<div><p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p><p>A Project can furthermore have an invoice plan and a budget.</p><p><b>Billable Projects must have a probability of 100%.</b></p></div>
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
