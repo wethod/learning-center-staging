@@ -6,6 +6,8 @@ weight: 20
 ---
 
 
+{{< img-center src="/uploads/2017/06/09/dashboard.png" >}}
+
 ## Overview
 
 The Dashboard is basically a set of widget any one of which can be added, removed and customized by the user.
@@ -35,6 +37,7 @@ This widget allows you to compare the total estimated value of the pipeline's pr
 This widget shows all the invoices that must be sent. The invoice list is based on the pipeline's invoice plans and each invoice <span style="font-size: 1rem;">has a priority (indicated by its color):</span>
 
 * Red invoices have an high priority because they had to be sent in a past date;
+
 * Yellow invoices have a low priority because they have to be send in the in a future date.
 
 ### Budget Consumption
