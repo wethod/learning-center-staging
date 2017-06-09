@@ -4,6 +4,10 @@ title: Planning
 weight: 40
 
 ---
+
+
+{{< img-center src="/uploads/2017/06/09/planning.png" >}}<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;"><br></span>
+
 <span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;">Overview</span>
 
 Look at teammates availability. Allocate half days, full days, or even weeks, checking that you respect the Budget quota.
