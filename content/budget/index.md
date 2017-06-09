@@ -6,6 +6,8 @@ weight: 31
 ---
 
 
+{{< img-center src="/uploads/2017/06/09/budget.png" >}}
+
 ## Overview
 
 The budget is the total amount of resources needed by a project, either internal and external costs. Internal costs are the working days you need to end the project, the external costs are the expenses you need to take.
@@ -23,5 +25,7 @@ A budget is composed by areas and tasks: an area is a task container, a task is 
 Budget statuses:
 
 * Draft: the budget can be edited, once is ready it can be submit to approval.
+
 * Pending: the budget is waiting to be approved or rejected.
+
 * Approved: the budget has been approved, you can now plan some resource to work on it.
