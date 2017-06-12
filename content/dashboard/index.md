@@ -28,13 +28,13 @@ This widget shows all the inconsistencies regarding the user. Each alert has a p
 
 Hovering on an alert will display a description of the problem.
 
-{{< img-center src="/uploads/2017/06/12/revenue-clock.png" >}}
-
 ### Revenue Clock
 
 This widget let you quickly compare the [pipeline value]({{< relref "glossary/index.md#pipeline-value" >}}) (blue) with the [production value]({{< relref "glossary/index.md#production-value" >}}) (green). When you create the widget, you have to set the production target you want to hit by the end of the year.
 
 The grey area shows the percentage of the year gone or, by another point of view, how much time you still have to hit your annual target.
+
+{{< img-center src="/uploads/2017/06/12/revenue-clock.png" >}}
 
 ### Invoices
 
@@ -54,4 +54,8 @@ This widget is a resume of the [Revenue Progress report]({{< relref "reports/ind
 
 ### Roadrunner Index
 
-This widget shows the Roadrunner Index for each of your projects.
+This widget shows the [Roadrunner Index]({{< relref "glossary/index.md#roardunner-index-rri" >}}) for each of your projects.
+
+Clicking on a project will take you to its [detail report]({{< relref "reports/index.md#project-report" >}}).
+
+{{< img-center src="/uploads/2017/06/12/rri-widget.png" >}}
