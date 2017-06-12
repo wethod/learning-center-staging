@@ -15,7 +15,7 @@ This value indicates, for a project, the percentage of the budget days already u
 
 This value indicates the estimated value of a project, weighted on its probability.
 
-### Pipeline Value
+### Revenue Pipeline
 
 This value is the sum of all the pipeline projects' expected value.
 
