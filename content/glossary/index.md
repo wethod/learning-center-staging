@@ -5,7 +5,8 @@ weight: 200
 last: true
 
 ---
-
+### Pipeline Value 
+This is the total estimated value of the pipeline's projects, weighted on their probability.
 
 ### Project Status
 
