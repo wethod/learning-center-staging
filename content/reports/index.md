@@ -12,7 +12,19 @@ All the data you insert in WETHOD are used to generate, weekly and automatically
 
 ## Project Report
 
-Each Monday, utilising data provided by Project Status, Timesheet and Budget, a Project Report is automatically created.
+Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#timesheet" >}}), [Project Status]({{< relref "friday/index.md#project-status" >}}) and [Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
+
+### Budget Consumption / Project Status
+
+{{< img-center src="/uploads/2017/06/12/report-bc_ps.png" >}}
+
+### Economics
+
+{{< img-center src="/uploads/2017/06/12/report-economics.png" >}}
+
+### Timesheet / Project Status
+
+### Hour / User
 
 ## Budget Consumption
 
@@ -91,7 +103,9 @@ Clicking on a column will show a panel listing all the grouped projects with the
 Clicking on a column will show a panel listing all the months for which an invoice exists with their:
 
 * Name;
+
 * Invoices' value sum for that month;
+
 * Percentage of influence on the annual invoice amount.
 
 ### By Client
@@ -99,7 +113,9 @@ Clicking on a column will show a panel listing all the months for which an invoi
 Clicking on a column will show a panel listing all the clients for which an invoice exists with their:
 
 * Name;
+
 * Invoices' value sum for that client;
+
 * Percentage of influence on the annual invoice amount.
 
 ## Production Value
@@ -121,9 +137,13 @@ On the top right corner you can change the week of the displayed timesheets.
 Here are listed all the changes done on value or probability of pipeline's projects. For each change you can see:
 
 * The name of the project which has been changed;
-* The name of the change's author;
-* The change's date;
-* The old value and the updated value;
-* The old probability and the updated probability;
-* The difference between the updated and the old [expected value]({{< relref "glossary/index.md#expected-value" >}}).
 
+* The name of the change's author;
+
+* The change's date;
+
+* The old value and the updated value;
+
+* The old probability and the updated probability;
+
+* The difference between the updated and the old [expected value]({{< relref "glossary/index.md#expected-value" >}}).
