@@ -5,7 +5,9 @@ weight: 200
 last: true
 
 ---
+### Budget Consumption
 
+This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.
 
 ### Pipeline Value
 
