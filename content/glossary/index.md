@@ -11,9 +11,13 @@ last: true
 
 This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.
 
+### Expected Value
+
+This value indicates the estimated value of a project, weighted on its probability.
+
 ### Pipeline Value
 
-This value indicates the total estimated value of the pipeline's projects, weighted on their probability.
+This value is the sum of all the pipeline projects' expected value.
 
 ### Production Value
 
