@@ -52,6 +52,8 @@ This widget is a resume of the [Budget Consumption report]({{< relref "reports/i
 
 This widget is a resume of the [Revenue Progress report]({{< relref "reports/index.md#revenue-progress" >}}) .
 
+{{< img-center src="/uploads/2017/06/12/revenue-progress-widget.png" >}}
+
 ### Roadrunner Index
 
 This widget shows the [Roadrunner Index]({{< relref "glossary/index.md#roardunner-index-rri" >}}) for each of your projects.
