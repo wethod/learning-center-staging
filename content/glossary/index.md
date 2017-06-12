@@ -13,24 +13,24 @@ This value indicates, for a project, the percentage of the budget days already u
 
 This value indicates the total estimated value of the pipeline's projects, weighted on their probability.
 
-### Project Status
-
-Valore che indica la stima a finire per un certo progetto. In pratica esprime il numero di giorni mancanti alla fine del progetto.
-
 ### Production Value
 
 This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project's value for the project's percentage of completion (obtained from the Project Status).For example, a project with:
 
-* Budget days: **100**;
-* Last project status: **40**;
-* Project's value: **10 K**;
+* Budget days: _100_;
 
-Has a production value of: **10 K * ( ( 100 - 40 ) / 100 )**.
+* Last project status: _40_;
+
+* Project's value: _10 K_;
+
+Has a production value of: _10 K * ( ( 100 - 40 ) / 100 )_.
 
 ### Roardunner Index (RRI)
 
-Valore che indica la quantità di *lavoro a vuoto* per un certo progetto. Con "lavoro a vuoto" si intende il rapporto tra l'avanzamento del progetto ([Project Status](/glossary/index/#project-status)) e le giornate lavorate ([Timesheet](/glossary/index/#timesheet)).
+This value indicates, for a given week, the ratio between [project status]({{< relref "friday/index.md#project-status" >}}) and [timesheet]({{< relref "friday/index.md#timesheet" >}}):
 
-### Timesheet
+* If ratio is _greater than 1_: last week an hour of work led to a project's progress greater than one hour. This means that project advanced faster than expected;
+* If ratio is _equal to 1_: last week project's progress (based on Project Status) was consistent with the worked hours (based on Timesheet);
+* If ratio is _lower than 1_: last week an hour of work led to a project's progress lower than one hour. This means that project advanced slower than expected.&nbsp;
 
-Valore che indica il numero di ore lavorate da una risorsa su un progetto.
+_The perfect managed project has a constant RRI of 1_.
