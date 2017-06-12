@@ -5,6 +5,8 @@ weight: 200
 last: true
 
 ---
+
+
 ### Budget Consumption
 
 This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.
@@ -17,20 +19,28 @@ This value indicates the total estimated value of the pipeline's projects, weigh
 
 This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project's value for the project's percentage of completion (obtained from the Project Status).For example, a project with:
 
-* Budget days: _100_;
+* Budget days: *100*;
 
-* Last project status: _40_;
+* Last project status: *40*;
 
-* Project's value: _10 K_;
+* Project's value: *10 K*;
 
-Has a production value of: _10 K * ( ( 100 - 40 ) / 100 )_.
+Has a production value of: *10 K * ( ( 100 - 40 ) / 100 )*.
 
-### Roardunner Index (RRI)
+### Project Progress
 
-This value indicates, for a given week, the ratio between [project status]({{< relref "friday/index.md#project-status" >}}) and [timesheet]({{< relref "friday/index.md#timesheet" >}}):
+This value indicates indicates, for a given week, how much the project is advanced.
 
-* If ratio is _greater than 1_: last week an hour of work led to a project's progress greater than one hour. This means that project advanced faster than expected;
-* If ratio is _equal to 1_: last week project's progress (based on Project Status) was consistent with the worked hours (based on Timesheet);
-* If ratio is _lower than 1_: last week an hour of work led to a project's progress lower than one hour. This means that project advanced slower than expected.&nbsp;
+For a given week, it's the difference between the project status for that week and the project status of the previous week.
 
-_The perfect managed project has a constant RRI of 1_.
+### Roadrunner Index (RRI)
+
+This value indicates, for a given week, the ratio between the project's progress and [timesheet]({{< relref "friday/index.md#timesheet" >}}):
+
+* If ratio is *greater than 1*: last week an hour of work led to a project's progress greater than one hour. This means that project advanced faster than expected;
+
+* If ratio is *equal to 1*: last week project's progress (based on Project Status) was consistent with the worked hours (based on Timesheet);
+
+* If ratio is *lower than 1*: last week an hour of work led to a project's progress lower than one hour. This means that project advanced slower than expected.
+
+*The perfect managed project has a constant RRI of 1*.
