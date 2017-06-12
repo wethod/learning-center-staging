@@ -15,10 +15,6 @@ This value indicates, for a project, the percentage of the budget days already u
 
 This value indicates the estimated value of a project, weighted on its probability.
 
-### Revenue Pipeline
-
-This value is the sum of all the pipeline projects' expected value.
-
 ### Production Value
 
 This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project's value for the project's percentage of completion (obtained from the Project Status).For example, a project with:
@@ -36,6 +32,10 @@ Has a production value of: *10 K * ( ( 100 - 40 ) / 100 )*.
 This value indicates indicates, for a given week, how much the project is advanced.
 
 For a given week, it's the difference between the project status for that week and the project status of the previous week.
+
+### Revenue Pipeline
+
+This value is the sum of all the pipeline projects' expected value.
 
 ### Roadrunner Index (RRI)
 
