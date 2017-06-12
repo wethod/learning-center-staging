@@ -5,8 +5,11 @@ weight: 200
 last: true
 
 ---
-### Pipeline Value 
-This is the total estimated value of the pipeline's projects, weighted on their probability.
+
+
+### Pipeline Value
+
+This value indicates the total estimated value of the pipeline's projects, weighted on their probability.
 
 ### Project Status
 
@@ -14,7 +17,13 @@ Valore che indica la stima a finire per un certo progetto. In pratica esprime il
 
 ### Production Value
 
-Valore che indica "quanto un progetto ha prodotto" ovvero la percentuale di completamento * il valore del progetto. Ad esempio: un progetto con project status al di 40 su 100 giornate (gliene mancano 40 alla fine) e con valore 10K  avrà production value = 10K * ((100 - 40)/100).
+This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project's value for the project's percentage of completion (obtained from the Project Status).For example, a project with:
+
+* Budget days: **100**;
+* Last project status: **40**;
+* Project's value: **10 K**;
+
+Has a production value of: **10 K * ( ( 100 - 40 ) / 100 )**.
 
 ### Roardunner Index (RRI)
 
