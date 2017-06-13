@@ -4,8 +4,6 @@ title: Reports
 weight: 60
 
 ---
-
-
 ## Overview
 
 All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects' progress.
@@ -27,6 +25,7 @@ This section shows the [budget consumption]({{< relref "glossary/index.md#budget
 By analizing the saved budget versions for the project, WETHOD can shows you:
 
 * The **baseline** which answers the question "*what would the situation be if I hadn't changed the budget since its first version*?";
+
 * The **forecast** which answers the question *"what's the situation right now?"*;
 
 * The **projected** which answers the question "*what will be the situation at the end of the project with the current budget consumption?"*;
@@ -38,9 +37,13 @@ The grey dots shows you the forecast of the various past budget versions.
 On right of the graph you have:
 
 1. **Baseline**: the first budget's hours amount;
+
 1. The variations of the budget's hours amount since the baseline was approved;
+
 1. [**Contingency**]({{< relref "budget/index.md#the-price-s-detail" >}});
+
 1. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
+
 1. A resume of the worked, planned, wasted and still available hours.
 
 {{< img-center src="/uploads/2017/06/12/report-bc_ps.png" >}}
@@ -50,6 +53,27 @@ On right of the graph you have:
 Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
 
 ### Economics
+
+Here is shown the trend of various [budget's]({{< relref "budget/index.md" >}}) voices for the project:
+
+* **Revenues**: the project's final net price;
+* **Internal Cost**;
+* **External Cost**: the sum of all external costs, travels and expenses excluded;
+* **Travels**;
+* **Expenses**;
+* **Gross Margin**: the difference between final net price and costs (either internal and external);
+* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their [levels]({{< relref "settings/index.md#company" >}});
+* **Net Margin**: the difference between gross margin and wasted.
+
+For each indicator you can see its value for:
+
+* The **baseline**: first approved budget's version & current progress;
+* The **forecasts**: last approved budget's version (a.k.a. current version) & current progress;
+* The **projected**: last approved budget's version & progress at 100%;
+* The **delta vs baseline**: difference between projected and baseline;
+* The **delta vs forecast**: difference between projected and forecast.
+
+The grey percentage under *margin* refers to the *revenues*.
 
 {{< img-center src="/uploads/2017/06/12/report-economics.png" >}}
 
