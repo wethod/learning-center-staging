@@ -45,16 +45,39 @@ Here you can configure your company by setting:
 * **Job Order Categories**: each one of your projects must have one. It defines the category of the project which can be chargeable or not. This way you can organize your projects into any category you like according to your business practice;
 
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
+
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost *when its probability is 0 and *won *when its probability is 90;
 
 * **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
+
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. *Be careful: shit happens and planning is often not 100% accurate, this is why timesheet exists.*
 
-## Rule Engine
-
 ## Permissions
+
+Here you can set permissions for the various user's role:
+
+* **Budget, Invoices, Orders, Pipeline, Planning, Project Status, Timesheet**: who can do what;
+
+* **Dashboard**: which widgets are available to who;
+
+* **Header**: which section of WETHOD are available;
+
+* **Reports**: which sections of *Reports *are available;
+
+* **Settings**: who can access *Settings*.
+
+*Here the word "other" means "of his/her teammates". For example: in the budget table, "view other" means "view his/her teammates budget".*
+
+*The roles "Account" and "PM" are dynamic: you can assign them only from a project.*
+
+To create a new role:
+
+1. Click on the top left "**+ add role**" button;
+
+1. Assign a name to the newly created role;
+
+1. Click the "**save**" button.
 
 ## Switch Company
 
 If you've different WETHOD companies linked to the same account, from here you can switch from one another.
-
