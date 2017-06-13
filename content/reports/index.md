@@ -57,20 +57,31 @@ Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [
 Here is shown the trend of various [budget's]({{< relref "budget/index.md" >}}) voices for the project:
 
 * **Revenues**: the project's final net price;
+
 * **Internal Cost**;
+
 * **External Cost**: the sum of all external costs, travels and expenses excluded;
+
 * **Travels**;
+
 * **Expenses**;
+
 * **Gross Margin**: the difference between final net price and costs (either internal and external);
+
 * **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their [levels]({{< relref "settings/index.md#company" >}});
+
 * **Net Margin**: the difference between gross margin and wasted.
 
 For each indicator you can see its value for:
 
 * The **baseline**: first approved budget's version & current progress;
+
 * The **forecasts**: last approved budget's version (a.k.a. current version) & current progress;
+
 * The **projected**: last approved budget's version & progress at 100%;
+
 * The **delta vs baseline**: difference between projected and baseline;
+
 * The **delta vs forecast**: difference between projected and forecast.
 
 The grey percentage under *margin* refers to the *revenues*.
@@ -79,7 +90,13 @@ The grey percentage under *margin* refers to the *revenues*.
 
 ### Timesheet / Project Status
 
+This is the only place in WETHOD where you can see the weekly details of a given project. Here you can quickly appreciate the relation between **worked hours**, **days left**(taken from the project status) and** **<span style="font-size: 1rem;">[</span><span style="font-size: 1rem;"><b>roadrunner index</b></span><span style="font-size: 1rem;">]({{&lt; relref "glossary/index.md</span><span style="font-size: 1rem;">#roadrunner-index-rri</span><span style="font-size: 1rem;">" &gt;}}).</span>
+
+When worked hours grows, days left must decrease. If this doesn't happen, you have a problem: your teammates are working on something which doesn't move forward.
+
 ### Hour / User
+
+Here are reported, for each teammate who have worked to the project, the comparison between his/her worked hours and his/her planned hours.
 
 ## Budget Consumption
 
