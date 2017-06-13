@@ -7,6 +7,10 @@ last: true
 ---
 
 
+### Absolute Project Progress
+
+This value indicates how much a project is advanced since its beginning, it's calculated as the difference between the budget's days and the last project status.
+
 ### Budget Consumption
 
 This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.
@@ -27,7 +31,7 @@ This value indicates *how much a project has produced* at a specific moment in t
 
 Has a production value of: **10 K * ( ( 100 - 40 ) / 100 )**.
 
-### Project Progress
+### Relative Project Progress
 
 This value indicates how much a project is advanced between two weeks, it's calculated as the difference between the project statuses of the the two given weeks.
 
