@@ -17,21 +17,19 @@ This value indicates the estimated value of a project, weighted on its probabili
 
 ### Production Value
 
-This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project's value for the project's percentage of completion (obtained from the Project Status).For example, a project with:
+This value indicates *how much a project has produced* at a specific moment in time. This is calculated by multiplying the project's value for the project's percentage of completion (obtained from the Project Status).For example, a project with:
 
-* Budget days: *100*;
+* Budget days: **100**;
 
-* Last project status: *40*;
+* Last project status: **40**;
 
-* Project's value: *10 K*;
+* Project's value: **10 K**;
 
-Has a production value of: *10 K * ( ( 100 - 40 ) / 100 )*.
+Has a production value of: **10 K * ( ( 100 - 40 ) / 100 )**.
 
 ### Project Progress
 
-This value indicates indicates, for a given week, how much the project is advanced.
-
-For a given week, it's the difference between the project status for that week and the project status of the previous week.
+This value indicates how much a project is advanced between two weeks, it's calculated as the difference between the project statuses of the the two given weeks.
 
 ### Revenue Pipeline
 
@@ -41,10 +39,10 @@ This value is the sum of all the pipeline projects' expected value.
 
 This value indicates, for a given week, the ratio between the project's progress and [timesheet]({{< relref "friday/index.md#timesheet" >}}):
 
-* If ratio is *greater than 1*: last week an hour of work led to a project's progress greater than one hour. This means that project advanced faster than expected;
+* If ratio is **greater than 1**: last week an hour of work led to a project's progress greater than one hour. This means that project advanced faster than expected;
 
-* If ratio is *equal to 1*: last week project's progress (based on Project Status) was consistent with the worked hours (based on Timesheet);
+* If ratio is **equal to 1**: last week project's progress (based on Project Status) was consistent with the worked hours (based on Timesheet);
 
-* If ratio is *lower than 1*: last week an hour of work led to a project's progress lower than one hour. This means that project advanced slower than expected.
+* If ratio is **lower than 1**: last week an hour of work led to a project's progress lower than one hour. This means that project advanced slower than expected.
 
 *The perfect managed project has a constant RRI of 1*.
