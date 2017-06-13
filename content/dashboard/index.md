@@ -4,6 +4,8 @@ title: Dashboard
 weight: 20
 
 ---
+
+
 {{< img-center src="/uploads/2017/06/09/dashboard.png" >}}
 
 ## Overview
@@ -25,6 +27,8 @@ This widget shows all the inconsistencies regarding the user. Each alert has a p
 * Yellow alerts have a low priority and can be seen more as advices.
 
 Hovering on an alert will display a description of the problem.
+
+[Learn more about alerts]({{< relref "alerts/index.md" >}})
 
 ### Revenue Clock
 
