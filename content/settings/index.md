@@ -8,19 +8,33 @@ weight: 80
 
 ## Tutorial
 
+From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: **with great power comes great responsibility.**
+
+Clicking on "**let me try**" will pause the tutorial and let you take a look around, to resume the tutorial just click on the bottom right button.
+
+Clicking on "**skip tour**" will close the tutorial.
+
 ## Account
 
-Puoi cambiare nome, cognome, password.
+Here you set your **name**, **surname** and **password**.
 
-Se sei l'owner hai anche la possibilità di:
+If you have the right permissions, you can:
 
-* Inserire e modificare i dettagli di fatturazione;
+* Change your invoice details;
 
-* Effettuare l'import dei progetti utilizzando un apposito template.
+* Import existing projects.
 
 ## Team
 
-Since you are a Superuser you have the super power to: <span style="font-size: 1rem;">invite people, assign specific roles and allow special permissions.</span>
+Since you have the right permissions, you can: **invite people**, **assign specific roles** and **allow special permissions**.
+
+To invite a new teammate:
+
+1. Click on the top left "**+ new user**" button;
+
+1. Assign a *user level*, a *role *and the *email address* of the person you want to invite;
+
+1. Click the "**invite**" button. Once done, an email will be sent to the given address.
 
 ## Company
 
@@ -29,9 +43,12 @@ Here you can configure your company by setting:
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
 
 * **Job Order Categories**: each one of your projects must have one. It defines the category of the project which can be chargeable or not. This way you can organize your projects into any category you like according to your business practice;
-* **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 
-* **Default Areas**: these will be suggested when you're creating a new budget ore when you're adding a new area to an existing budget.
+* **Email Bot**: here you can insert the email addresses to which send invoices and orders;
+* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost *when its probability is 0 and *won *when its probability is 90;
+
+* **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
+* **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. *Be careful: shit happens and planning is often not 100% accurate, this is why timesheet exists.*
 
 ## Rule Engine
 
@@ -39,4 +56,5 @@ Here you can configure your company by setting:
 
 ## Switch Company
 
-Puoi cambiare compagnia se fai parte di più team con lo stesso account WETHOD.
+If you've different WETHOD companies linked to the same account, from here you can switch from one another.
+
