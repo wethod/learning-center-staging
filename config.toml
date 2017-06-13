@@ -39,6 +39,10 @@ name = "Pipeline"
 url = "pipeline/index/"
 weight = 30
 [[menu.main]]
+name = "Alerts"
+url = "alerts/index/"
+weight = 21
+[[menu.main]]
 name = "Dashboard"
 url = "dashboard/index/"
 weight = 20
