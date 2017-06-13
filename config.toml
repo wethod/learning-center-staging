@@ -11,6 +11,10 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.main]]
+name = "Alerts"
+url = "alerts/index/"
+weight = 21
+[[menu.main]]
 name = "Budget"
 url = "budget/index/"
 weight = 31
@@ -38,10 +42,6 @@ weight = 40
 name = "Pipeline"
 url = "pipeline/index/"
 weight = 30
-[[menu.main]]
-name = "Alerts"
-url = "alerts/index/"
-weight = 21
 [[menu.main]]
 name = "Dashboard"
 url = "dashboard/index/"

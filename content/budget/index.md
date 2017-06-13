@@ -4,8 +4,6 @@ title: Budget
 weight: 31
 
 ---
-
-
 {{< img-center src="/uploads/2017/06/09/budget.png" >}}
 
 ## Overview

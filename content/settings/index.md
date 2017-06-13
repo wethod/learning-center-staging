@@ -4,8 +4,6 @@ title: Settings
 weight: 80
 
 ---
-
-
 ## Tutorial
 
 From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: **with great power comes great responsibility.**

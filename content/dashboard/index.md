@@ -4,8 +4,6 @@ title: Dashboard
 weight: 20
 
 ---
-
-
 {{< img-center src="/uploads/2017/06/09/dashboard.png" >}}
 
 ## Overview
