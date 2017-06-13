@@ -34,7 +34,7 @@ By analizing the saved budget versions for the project, WETHOD can shows you:
 
 The grey dots shows you the forecast of the various past budget versions.
 
-On right of the graph you have:
+On the right of the graph you have:
 
 1. **Baseline**: the first budget's hours amount;
 
