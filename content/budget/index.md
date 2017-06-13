@@ -4,8 +4,6 @@ title: Budget
 weight: 31
 
 ---
-
-
 {{< img-center src="/uploads/2017/06/09/budget.png" >}}
 
 ## Overview
@@ -74,8 +72,8 @@ Positioned on the right, this part shows some details about the project's price:
 
 1. A new budget can either be created from scratch or from a template:
 
-* From **scratch**: choose the tasks (also called *activities*) you want to include in the new budget;
-* From **template**: choose the template you want to use, a template represents the structure of budget you done and saved in the past.
+	* From **scratch**: choose the tasks (also called *activities*) you want to include in the new budget;
+	* From **template**: choose the template you want to use, a template represents the structure of budget you done and saved in the past.
 
 1. Compile the budget;
 
