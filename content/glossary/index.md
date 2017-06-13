@@ -5,8 +5,6 @@ weight: 200
 last: true
 
 ---
-
-
 ### Absolute Project Progress
 
 This value indicates how much a project is advanced since its beginning, it's calculated as the difference between the budget's days and the last project status.
@@ -50,3 +48,9 @@ This value indicates, for a given week, the ratio between the project's progress
 * If ratio is **lower than 1**: last week an hour of work led to a project's progress lower than one hour. This means that project advanced slower than expected.
 
 *The perfect managed project has a constant RRI of 1*.
+
+### Wasted Hours
+Wasted hours are generated when one of the following conditions is true:
+
+* A person is planned on the project A but he/she doesn't work on that project at all;
+* A person is planned on the project A but he/she works on the project B instead and the project B has a non chargeable [job order category]({{< relref "settings/index.md#company" >}}).
