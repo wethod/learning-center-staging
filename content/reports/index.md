@@ -16,7 +16,38 @@ Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#
 
 ### Budget Consumption / Project Status
 
+This section shows the [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+
+* If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
+
+* If the project is **under the diagonal**: it's using few days but it's progressing faster than predictions based on budget;
+
+* If the project is **on the diagonal**: it's planned and managed correctly.
+
+By analizing the saved budget versions for the project, WETHOD can shows you:
+
+* The **baseline** which answers the question "*what would the situation be if I hadn't changed the budget since its first version*?";
+* The **forecast** which answers the question *"what's the situation right now?"*;
+
+* The **projected** which answers the question "*what will be the situation at the end of the project with the current budget consumption?"*;
+
+* The **wasted** which answers the question "*what's the situation right now, [wasted hours]({{< relref "glossary/index.md#wasted-hours" >}}) included?"*;
+
+The grey dots shows you the forecast of the various past budget versions.
+
+On right of the graph you have:
+
+1. **Baseline**: the first budget's hours amount;
+1. The variations of the budget's hours amount since the baseline was approved;
+1. [**Contingency**]({{< relref "budget/index.md#the-price-s-detail" >}});
+1. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
+1. A resume of the worked, planned, wasted and still available hours.
+
 {{< img-center src="/uploads/2017/06/12/report-bc_ps.png" >}}
+
+### Invoices & Orders
+
+Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
 
 ### Economics
 
@@ -30,7 +61,7 @@ Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#
 
 This is an overview of all Projects in terms of resources and time spent on the project, allowing you to analyse their health at a glance.
 
-For each pipeline's project, its [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its [project status]({{< relref "friday/index.md#project-status" >}}) percentage:
+For each pipeline's project, its [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 
