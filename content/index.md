@@ -5,6 +5,8 @@ type: index
 weight: 0
 
 ---
+
+
 ## What It Is
 
 WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
@@ -54,3 +56,14 @@ A lot of information could be extracted, weekly and automatically, from the few 
 **Thanks to its crystal clear system, week after week, month after month, WETHOD highlights people that are contributing the most to the success of the group and at the same time shows problems or inefficiencies – allowing you to react.**
 
 {{< img-center src="/uploads/2017/05/25/space-banner-2.png" >}}
+
+## About This Guide
+
+The content of this guide is organized as the WETHOD app sections so, to make your searches as profitable as possible, you've different ways to follow:
+
+* Use the **search field**: click on the magnifier in the top right corner and just input what you are looking for;
+* If you are interested in a specific section, use the **side menu **to find it;
+* If our explanation doesn't fit for you:
+
+* Use the [FAQ]({{< relref "faq/index.md" >}}) section to find popular questions about WETHOD or make a new one;
+* Send us an email at **info@wethod.com**, we'll answer you as soon as possible.
