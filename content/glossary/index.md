@@ -5,6 +5,8 @@ weight: 200
 last: true
 
 ---
+
+
 ### Absolute Project Progress
 
 This value indicates how much a project is advanced since its beginning. For example, a project with:
@@ -29,6 +31,10 @@ Has a budget consumption of: **80 / 200 * 100 = 40 % .**
 
 This value indicates the estimated value of a project, weighted on its probability.
 
+### Job Order
+
+It's a code which identifies a project inside a company, may be not unique.
+
 ### Production Value
 
 This value indicates *how much a project has produced* at a specific moment in time. This is calculated by multiplying the project's value for the project's percentage of completion (obtained from the Project Status).For example, a project with:
@@ -40,6 +46,12 @@ This value indicates *how much a project has produced* at a specific moment in t
 * Project's value: **10 K**;
 
 Has a production value of: **10 K * ( ( 100 - 40 ) / 100 )**.
+
+### Purchase Order (PO)
+
+It's a commercial document and first official offer issued by a buyer to a seller, indicating types, quantities, and agreed prices for products or services. It is used to control the purchasing of products and services from external suppliers.
+
+If a seller accepts a buyer PO, a contract is created between them.
 
 ### Relative Project Progress
 
