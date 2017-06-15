@@ -4,6 +4,8 @@ title: Pipeline
 weight: 30
 
 ---
+
+
 {{< img-center src="/uploads/2017/05/25/nav-pipeline.png" >}}
 
 ## Overview
@@ -30,7 +32,7 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Projects
 
-<div><p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p><p>A Project can furthermore have an invoice plan and a budget.</p>
+<div><p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p><p>A Project can furthermore have an invoice plan and a budget.</p><p>A project is considered <b>started</b> if it has a start date in the past or if someone has submitted timesheets for it.<br></p>
 	<p>
 		A project is considered <b>active</b> when its probability reaches 90%, only when this happens makes sense to plan people or to do timeheets for this project.
 	</p>
