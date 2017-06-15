@@ -12,9 +12,11 @@ The planning is useful to look at teammates availability, allocate them for proj
 
 You can plan a person by half-days: we think it's not worth planning by more fine-grained amounts of time. If your tasks require less time, just group them!
 
-**You cannot plan people for the current day: if you don't know what you have to do when you arrive at the office, how can you be productive?**
+{{< note title="Note" >}}
+<p>You cannot plan people for the current day: if you don't know what you have to do when you arrive at the office, how can you be productive?</p>
+<p>A project manager can plan other people on a project only if a budget exists for that project.</p>
+{{< /note >}}
 
-**A project manager can plan other people on a project only if a budget exists for that project.**
 
 ## The Structure
 
