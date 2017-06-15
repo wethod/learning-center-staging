@@ -28,16 +28,26 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Basket
 
-<div><p>The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.</p><p>The significant information listed above are <i>not mandatory</i> for an opportunity.</p><p><b>Opportunities usually have a probability between 1% and 99%.</b></p></div>
+<div><p>The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.</p><p>The significant information listed above are <i>not mandatory</i> for an opportunity.</p></div>
+
+{{< note title="Note" >}}
+Opportunities usually have a probability between 1% and 99%.
+{{< /note >}}
 
 ## Projects
 
 <div><p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p><p>A Project can furthermore have an invoice plan and a budget.</p><p>A project is considered <b>started</b> if it has a start date in the past or if someone has submitted timesheets for it.<br></p>
 	<p>
-		A project is considered <b>active</b> when its probability reaches 90%, only when this happens makes sense to plan people or to do timeheets for this project. An active project must have a job order.</p>
-	<p><b>Billable Projects must have a probability of 100%.</b></p>
-<p><b>When a project status reach 0, it's a good practice to archive it.</b></p>
-<p><b>When a project reach 50% of probability, it's a good practice to make a budget for it.</b></p></div>
+		A project is considered <b>active</b> when its probability reaches 90%, only when this happens makes sense to plan people or to do timeheets for this project. An active project must have a job order.</p></div>
+
+{{< note title="Note" >}}
+
+Billable Projects must have a probability of 100%.
+
+When a project status reach 0, it's a good practice to archive it.
+
+When a project reach 50% of probability, it's a good practice to make a budget for it.
+{{< /note >}}
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
@@ -48,12 +58,15 @@ By clicking on a project you can edit its details or open its: *budget*, *planni
 Here you can set when you plan to emit invoices for the project. This section is basically a calendar with some additional information:
 
 * **Plan**: the amount you plan to invoice for a given month;
+
 * **Invoiced**: the amount actually invoiced for a given month. This is automatically updated each time you create an invoice for the project;
+
 * **Delta**: the difference between Plan and Invoiced for a given month.
 
 An invoice plan can be:
 
 * **Automatic**: an invoice is automatically planned for each project's duration month, the invoice amount is obtained by dividing project's estimate by project's duration;
+
 * **Manual**: you need to manually insert each amount you plan to invoice. If you choose this mode, you can choose an **offset** amount to move back or forward in time.
 
 {{< img-center src="/uploads/2017/06/15/invoice-plan.png" >}}
