@@ -79,6 +79,7 @@ A Purchase Order is needed to emit invoices, so it's strange that a 100% probabi
 This alert is shown to the project manager if one of the following situations happens:
 
 * A project is started but its probability is lower than 90%;
+
 * A project is going to start during the current month but its probability is lower than 75%.
 
 A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.
@@ -90,3 +91,42 @@ This alert is shown to the manager of a project who forgot to update the project
 ### Timesheet
 
 This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
+
+### Invoice Plan / Budget Final Net Price
+
+This alert is shown to the manager of a project if the following situations happens:
+
+* The invoice plan is set as manual;
+
+* Invoice plan's total amount and final net price mismatch.
+
+This can happen when you edit budget after setting invoice plan as manual.
+
+### Job Order / Project Probability
+
+This alert is shown to the manager of a project if one of the following situations happens:
+
+* The probability si greater than 90% but the project has't a job order;
+* The probability si lower than 90% and the project has a job order.
+
+Only active project must have a job order.
+
+### Planning / Project End
+
+This alert is shown to the manager of a project for which are planned people somewhen after the project's end date.
+
+### Planning / Budget Status
+
+This alert is shown to the manager of a project which has future planned resources but hasn't an approved budget.
+
+You cannot plan resources if you haven't a budget which gives you the right to do it.
+
+### Non Chargeable / Budget Final Net Price
+
+This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. A non chargeable project can't have revenues by definition.
+
+### Empty Planning
+
+This alert is shown to you if you're not planned for tomorrow (Saturday and Sunday excluded).
+
+### Orders / External Cost
