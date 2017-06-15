@@ -4,8 +4,6 @@ title: Alerts
 weight: 21
 
 ---
-
-
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
