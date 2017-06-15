@@ -41,6 +41,23 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
+By clicking on a project you can edit its details or open its: *budget*, *planning*, *report*, *invoice plan*.
+
+### Invoice Plan
+
+Here you can set when you plan to emit invoices for the project. This section is basically a calendar with some additional information:
+
+* **Plan**: the amount you plan to invoice for a given month;
+* **Invoiced**: the amount actually invoiced for a given month. This is automatically updated each time you create an invoice for the project;
+* **Delta**: the difference between Plan and Invoiced for a given month.
+
+An invoice plan can be:
+
+* **Automatic**: an invoice is automatically planned for each project's duration month, the invoice amount is obtained by dividing project's estimate by project's duration;
+* **Manual**: you need to manually insert each amount you plan to invoice. If you choose this mode, you can choose an **offset** amount to move back or forward in time.
+
+{{< img-center src="/uploads/2017/06/15/invoice-plan.png" >}}
+
 ## Programs
 
 Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate [economic reports]({{< relref "reports/index.md#economics" >}}).
