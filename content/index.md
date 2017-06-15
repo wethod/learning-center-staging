@@ -5,6 +5,8 @@ type: index
 weight: 0
 
 ---
+
+
 ## What It Is
 
 WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
@@ -19,7 +21,7 @@ This enables WETHOD to create a system where everybody collaborate and keep info
 
 Just few elements are needed in order to get things working:
 
-* A project budget;
+* A project [budget]({{< relref "budget/index.md" >}});
 
 * The weekly [timesheet]({{< relref "friday/index.md#timesheet" >}});
 
