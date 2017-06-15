@@ -4,6 +4,8 @@ title: Alerts
 weight: 21
 
 ---
+
+
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -74,12 +76,17 @@ A Purchase Order is needed to emit invoices, so it's strange that a 100% probabi
 
 ### Project Start
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown to the project manager if one of the following situations happens:
+
+* A project is started but its probability is lower than 90%;
+* A project is going to start during the current month but its probability is lower than 75%.
+
+A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.
 
 ### Project Status
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown to the manager of a project who forgot to update the project status in the last two weeks.
 
 ### Timesheet
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
