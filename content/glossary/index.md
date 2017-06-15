@@ -7,11 +7,23 @@ last: true
 ---
 ### Absolute Project Progress
 
-This value indicates how much a project is advanced since its beginning, it's calculated as the difference between the budget's days and the last project status.
+This value indicates how much a project is advanced since its beginning. For example, a project with:
+
+* Budget days: **200**;
+
+* Last project status: **40**;
+
+Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 ### Budget Consumption
 
-This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.
+This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days. For example, a project with:
+
+* Budget days: **200**;
+
+* Last week timesheet hours: **80**;
+
+Has a budget consumption of: **80 / 200 * 100 = 40 % .**
 
 ### Expected Value
 
@@ -50,7 +62,9 @@ This value indicates, for a given week, the ratio between the project's progress
 *The perfect managed project has a constant RRI of 1*.
 
 ### Wasted Hours
+
 Wasted hours are generated when one of the following conditions is true:
 
 * A person is planned on the project A but he/she doesn't work on that project at all;
+
 * A person is planned on the project A but he/she works on the project B instead and the project B has a non chargeable [job order category]({{< relref "settings/index.md#company" >}}).
