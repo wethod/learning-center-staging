@@ -130,3 +130,5 @@ This alert is shown to the manager of a non chargeable project which has a final
 This alert is shown to you if you're not planned for tomorrow (Saturday and Sunday excluded).
 
 ### Orders / External Cost
+
+This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the budget external costs. You don't want to spend money you don't have, right?
