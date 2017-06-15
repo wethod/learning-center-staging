@@ -14,9 +14,11 @@ To create a order:
 1. Compile the order's empty fields;
 1. Click on the "**create**" button.
 
-**You can create orders only for projects you have already provided with job order and budget.**
+{{< note title="Note" >}}
+<p>You can create orders only for projects you have already provided with job order and budget.</p>
+<p>Order's value must be lower or equal then the external costs entered in the budget.</p>
+{{< /note >}}
 
-**Order's value must be lower or equal then the external costs entered in the budget.**
 
 ## Invoices
 
@@ -28,7 +30,10 @@ To create an invoice:
 1. Compile the invoice's empty fields;
 1. Click on the "**create**" button.
 
-**You can create invoices only for projects you have already provided with job order and budget.**
+{{< note title="Note" >}}
+<p>You can create invoices only for projects you have already provided with job order and budget.</p>
+{{< /note >}}
+
 
 ## Clients
 
