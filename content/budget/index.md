@@ -24,7 +24,9 @@ The budget is the place where you try to define (for a project):
 
 Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
 
-**When a project reach 50% of probability, it's a good practice to make a budget for it.**
+{{< note title="Note" >}}
+When a project reach 50% of probability, it's a good practice to make a budget for it.
+{{< /note >}}
 
 ## The Structure
 
