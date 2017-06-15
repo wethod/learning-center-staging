@@ -4,11 +4,14 @@ title: Alerts
 weight: 21
 
 ---
+
+
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
 
 * Red alerts have an high priority and must be solved as soon as possible;
+
 * Yellow alerts have a low priority and can be seen more as advices.
 
 Hovering on an alert will display a description of the problem.
@@ -28,6 +31,7 @@ This alert is shown to the project manager who have created an opportunity that'
 This alert is shown to the project manager of a project which has:
 
 * An invoice plan manually set;
+
 * A probability lower than 90%.
 
 ### Budget Submitted
@@ -36,15 +40,17 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 ### Budget Consumption Too Fast
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
 ### Budget Consumption Too Slow
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
 ### Project Status / Archived
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown if you're manager of a finished project which isn't already been archived.
+
+It's a good practice to archive your projects when their project status reach 0.
 
 ### Project Probability / Budget
 
