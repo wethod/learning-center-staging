@@ -54,7 +54,7 @@ It's a good practice to archive your projects when their project status reach 0.
 
 ### Project Probability / Budget
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown if you're manager of a project with probability greater than 50% but with budget in draft or missing.<span style="font-size: 1rem;">&nbsp;</span>
 
 ### Planning or Timesheet but Probability < 90%
 
