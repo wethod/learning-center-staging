@@ -38,7 +38,7 @@ The grey area shows the percentage of the year gone or, by another point of view
 
 ### Invoices
 
-This widget shows all the invoices that must be sent. The invoice list is based on the pipeline's invoice plans and each invoice <span style="font-size: 1rem;">has a priority (indicated by its color):</span>
+This widget shows all the invoices that must be sent. The invoice list is based on the pipeline's [invoice plan]({{< relref "pipeline/index.md#invoice-plan" >}}) and each invoice has a priority (indicated by its color):
 
 * Red invoices have an high priority because they had to be sent in a past date;
 
