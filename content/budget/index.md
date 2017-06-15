@@ -24,6 +24,8 @@ The budget is the place where you try to define (for a project):
 
 Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
 
+**When a project reach 50% of probability, it's a good practice to make a budget for it.**
+
 ## The Structure
 
 The budget section is composed by three main parts: header, body and price's detail.
@@ -70,7 +72,9 @@ Positioned on the right, this part shows some details about the project's price:
 
 1. Select a project from the [Pipeline]({{< relref "pipeline/index.md#projects" >}}) and click on its budget button;
 
-1.
+1. A new budget can either be created from scratch or from a template:
+	* From **scratch**: choose the tasks (also called *activities*) you want to include in the new budget;		
+	* From **template**: choose the template you want to use, a template represents the structure of budget you done and saved in the past.
 
 1. Compile the budget;
 

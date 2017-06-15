@@ -30,7 +30,13 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Projects
 
-<div><p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p><p>A Project can furthermore have an invoice plan and a budget.</p><p><b>Billable Projects must have a probability of 100%.</b></p></div>
+<div><p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p><p>A Project can furthermore have an invoice plan and a budget.</p>
+	<p>
+		A project is considered <b>active</b> when its probability reaches 90%, only when this happens makes sense to plan people or to do timeheets for this project.
+	</p>
+	<p><b>Billable Projects must have a probability of 100%.</b></p>
+<p><b>When a project status reach 0, it's a good practice to archive it.</b></p>
+<p><b>When a project reach 50% of probability, it's a good practice to make a budget for it.</b></p></div>
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 

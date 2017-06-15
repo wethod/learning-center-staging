@@ -58,15 +58,21 @@ This alert is shown if you're manager of a project with probability greater than
 
 ### Planning or Timesheet but Probability < 90%
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown if you're manager of a project with probability lower than 90% but which already have a planning and/or timesheets.
 
 ### Planning > Project Status
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown if you're manager of a project for which are planned (in the future) more days than the last project status days. What's the meaning of requiring more resources than what you really need?
 
 ### Client PO / Project Probablity
 
-This alert is shown to the project manager who have created orders not sent yet.
+This alert is shown to the project manager if one of the following situations happens:
+
+* Project has probability of 100% but there isn't a Purchase Order set for the project;
+
+* A Purchase Order is set for the project despite its probability is lower than 100%.
+
+A Purchase Order is needed to emit invoices, so it's strange that a 100% probability project hasn't a Purchase Order or vice versa.
 
 ### Project Start
 
