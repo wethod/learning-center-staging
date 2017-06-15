@@ -4,8 +4,6 @@ title: Alerts
 weight: 21
 
 ---
-
-
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -109,7 +107,7 @@ This alert is shown to the manager of a project if one of the following situatio
 * The probability si greater than 90% but the project has't a job order;
 * The probability si lower than 90% and the project has a job order.
 
-Only active project must have a job order.
+Only active project must have a [job order]({{< relref "glossary/index.md#job-order" >}}).
 
 ### Planning / Project End
 
