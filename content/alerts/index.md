@@ -4,6 +4,8 @@ title: Alerts
 weight: 21
 
 ---
+
+
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -90,9 +92,9 @@ This alert is shown to the manager of a project who forgot to update the project
 
 This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
 
-### Project duration / Timesheet
+### Project Duration / Timesheet
 
-This alert is shown when a project has some timesheet before the start date or after the end date.
+This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date. Why are your teammates doing timesheets for a non active project?
 
 ### Invoice Plan / Budget Final Net Price
 
