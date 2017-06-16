@@ -4,8 +4,6 @@ title: Friday
 weight: 50
 
 ---
-
-
 ## Overview
 
 WETHOD follows a weekly cycle: we think that a week is a good trade-off between the need to control the project's progress as much as possible and the need to not burden the control activities.

@@ -5,8 +5,6 @@ weight: 200
 last: true
 
 ---
-
-
 ### Absolute Project Progress
 
 This value indicates how much a project is advanced since its beginning. For example, a project with:
