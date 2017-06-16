@@ -40,7 +40,10 @@ Here you can configure your company by setting:
 
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
 
-* **Job Order Categories**: each one of your projects must have one, this way you can organize your projects into any category you like according to your business practice; Each category has some useful features: ***Chargeable*** define whether the projects in this category are chargeable or not. **Everybody can plan** if checked, all the projects in the category can be planned by everyone, regardless the company permissions. **Must be in Program** if checked all, the projects in the category must be added to a [Program](http://support.wethod.com/pipeline/index/#programs) when their probability reaches 90%.
+* **Job Order Categories**: each one of your projects must have one, this way you can organize your projects into any category you like according to your business practice. Each category has some useful features:
+	* **Chargeable** define whether the projects in this category are chargeable or not;
+	* **Everybody can plan** if checked, all the projects in the category can be planned by everyone, regardless the company permissions,
+	* **Must be in Program** if checked all, the projects in the category must be added to a [Program](http://support.wethod.com/pipeline/index/#programs) when their probability reaches 90%.
 
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 
