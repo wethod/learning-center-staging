@@ -4,6 +4,8 @@ title: Settings
 weight: 80
 
 ---
+
+
 ## Tutorial
 
 From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: **with great power comes great responsibility.**
@@ -40,11 +42,11 @@ Here you can configure your company by setting:
 
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
 
-* **Job Order Categories**: each one of your projects must have one. It defines the category of the project which can be chargeable or not. This way you can organize your projects into any category you like according to your business practice;
+* **Job Order Categories**: each one of your projects must have one, this way you can organize your projects into any category you like according to your business practice;
 
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 
-* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost *when its probability is 0 and *won *when its probability is 90;
+* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost* when its probability is 0 and *won* when its probability is 90;
 
 * **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
 
