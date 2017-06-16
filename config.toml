@@ -73,7 +73,7 @@ repo_url = ""
 version = ""
 [params.font]
 code = "Ubuntu Mono"
-text = "Ubuntu"
+text = "Helvetica"
 [params.palette]
 accent = "teal"
 primary = "black"
