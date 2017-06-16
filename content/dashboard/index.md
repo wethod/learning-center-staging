@@ -4,6 +4,8 @@ title: Dashboard
 weight: 20
 
 ---
+
+
 {{< img-center src="/uploads/2017/06/09/dashboard.png" >}}
 
 ## Overview
@@ -43,6 +45,13 @@ This widget shows all the invoices that must be sent. The invoice list is based 
 * Red invoices have an high priority because they had to be sent in a past date;
 
 * Yellow invoices have a low priority because they have to be send in the in a future date.
+
+Hovering on an invoice will shows you the buttons to:
+
+* Go to the project's budget;
+* Create the invoice.
+
+By clicking on an invoice you can select it plus others and create multiple invoice at once. The created invoices will be automatically filled with the right project's name, client, job order, value and due date. You still can edit your invoices before sending them.
 
 ### Budget Consumption
 
