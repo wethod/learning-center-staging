@@ -196,6 +196,21 @@ This is an overview of the annual projects' [production value]({{< relref "gloss
 
 {{< img-center src="/uploads/2017/06/12/production-value.png" >}}
 
+### By Week
+
+In this view you can see, for each project (and for the selected week):
+
+* The [roadrunner index]({{< relref "glossary/index.md#roadrunner-index-rri" >}});
+* The **lost production**: let's say people worked on a project for *A* hours and the project progressed of *B* hours. If *A* is greater than *B*  you've used more hours than expected and this value gives you how much production you've lost;
+* The **production value**;
+* The **worked days**: how many days people have worked on the project during the selected week;
+* The **progress**: how many days the project has progressed during the selected week, that is the difference between the selected week project status and the previous one;
+* The **1D Value** **(Budget)**: estimated daily production value, that is "what's the expected value that must be produced for the project by day?". This is calculated by dividing the project's estimate by the project's budget days;
+* The **1D Value (Actual)**: actual daily production value, that is "what's the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than *1D Value (Budget)*, red otherwise;
+* The **external cost**: project's external cost percentage on the total estimate.
+
+You can switch between month's week by using the selector placed at the top of this section.
+
 ## Timesheets
 
 This is a weekly overview of the [timesheets]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the [job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
