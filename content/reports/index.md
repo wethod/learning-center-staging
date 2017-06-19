@@ -192,7 +192,7 @@ Clicking on a column will show a panel listing all the clients for which an invo
 
 ## Production Value
 
-This is an overview of the annual projects' [production value]({{< relref "glossary/index.md#production-value" >}}. By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
+This is an overview of the annual projects' [production value]({{< relref "glossary/index.md#production-value" >}}). By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
 
 {{< img-center src="/uploads/2017/06/12/production-value.png" >}}
 
