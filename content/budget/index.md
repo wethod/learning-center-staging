@@ -4,8 +4,6 @@ title: Budget
 weight: 31
 
 ---
-
-
 {{< img-center src="/uploads/2017/06/09/budget.png" >}}
 
 ## Overview
@@ -91,3 +89,5 @@ Positioned on the right, this part shows some details about the project's price:
 When a Budget is approved you have the possibility to automatically update the Project Status accordingly to the new Budget's days. The new Project Status value is calculated by adding to the last one the difference between the last Budget days and new Budget days. You can access this functionality from the 'more options' button on the right columns of the Budget.
 
 {{< img-center src="/uploads/2017/06/22/project_status_correction.png" >}}
+
+{{< img-center src="/uploads/2017/06/22/correction_modal.png" >}}
