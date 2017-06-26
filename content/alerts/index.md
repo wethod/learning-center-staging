@@ -4,6 +4,8 @@ title: Alerts
 weight: 21
 
 ---
+
+
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -62,11 +64,11 @@ This alert is shown if you're manager of a project with probability lower than 9
 
 This alert is shown if you're manager of a project for which are planned (in the future) more days than the last project status days. What's the meaning of requiring more resources than what you really need?
 
-### Client PO / Project Probablity
+### Client PO
 
 This alert is shown to the project manager if one of the following situations happens:
 
-* Project has probability of 100% but there isn't a Purchase Order set for the project;
+* Project has probability of 100% or has some Invoices but there isn't a Purchase Order set for the project;
 
 * A Purchase Order is set for the project despite its probability is lower than 100%.
 
