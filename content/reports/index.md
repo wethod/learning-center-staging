@@ -4,6 +4,8 @@ title: Reports
 weight: 60
 
 ---
+
+
 ## Overview
 
 All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects' progress.
@@ -201,12 +203,19 @@ This is an overview of the annual projects' [production value]({{< relref "gloss
 In this view you can see, for each project (and for the selected week):
 
 * The [roadrunner index]({{< relref "glossary/index.md#roadrunner-index-rri" >}});
+
 * The **lost production**: let's say people worked on a project for *A* hours and the project progressed of *B* hours. If *A* is greater than *B*  you've used more hours than expected and this value gives you how much production you've lost;
+
 * The **production value**;
+
 * The **worked days**: how many days people have worked on the project during the selected week;
+
 * The **progress**: how many days the project has progressed during the selected week, that is the difference between the selected week project status and the previous one;
+
 * The **1D Value** **(Budget)**: estimated daily production value, that is "what's the expected value that must be produced for the project by day?". This is calculated by dividing the project's estimate by the project's budget days;
+
 * The **1D Value (Actual)**: actual daily production value, that is "what's the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than *1D Value (Budget)*, red otherwise;
+
 * The **external cost**: project's external cost percentage on the total estimate.
 
 You can switch between month's week by using the selector placed at the top of this section.
@@ -219,7 +228,13 @@ On the top left corner you can filter the displayed people.
 
 On the top right corner you can change the week of the displayed timesheets.
 
-## Changelog
+## Timesheet Roadrunner
+
+This report shows all the timesheets for the selected year, grouped by Job Order Category and compared to the [Roadrunner Index](http://support.wethod.com/glossary/index/#roadrunner-index-rri).
+
+You can chose between monthly and weekly visualization via the selector on the top of the section, where you can also find the year selector.
+
+<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;">Changelog</span>
 
 Here are listed all the changes done on value or probability of pipeline's projects. For each change you can see:
 
