@@ -234,18 +234,13 @@ This report shows all the timesheets for the selected year, grouped by Job Order
 
 You can chose between monthly and weekly visualization via the selector on the top of the section, where you can also find the year selector.
 
-<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;">Changelog</span>
+## Changelog
 
 Here are listed all the changes done on value or probability of pipeline's projects. For each change you can see:
 
 * The name of the project which has been changed;
-
 * The name of the change's author;
-
 * The change's date;
-
 * The old value and the updated value;
-
 * The old probability and the updated probability;
-
-* The difference between the updated and the old [expected value]({{< relref "glossary/index.md#expected-value" >}}).
+* The difference between the updated and the old [expected value](glossary/index.md#expected-value).
