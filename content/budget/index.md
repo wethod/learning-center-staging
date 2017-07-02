@@ -10,7 +10,9 @@ weight: 31
 
 ## Overview
 
-The budget is the place where you try to define (for a project):
+The budget is where you can list all the resources you think you'll need for the project.
+
+Basically, this is the place where you try define (for a project):
 
 * How many people you need;
 
