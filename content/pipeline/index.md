@@ -65,6 +65,8 @@ Pipeline has three subsections: Basket, Projects and Programs.
 </li>
 </ul>
 <p>You can find the invoices (listed in your plan) in the [Invoices widget]({{&lt; relref "dashboard/index.md#invoices" &gt;}}), there they're ready to be created and sent.</p>
-<h2>Programs</h2>
-<p>Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate [economic reports]({{&lt; relref "reports/index.md#economics" &gt;}}).</p>
 </div>
+
+## Programs
+
+Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate [economic reports]({{< relref "reports/index.md#economics" >}}).
