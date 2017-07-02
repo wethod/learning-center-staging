@@ -118,7 +118,9 @@ Using filters, you can select the Projects you want to see and explore details s
 
 ## Revenue Progress
 
-This compares the projects' status with the percentage of their value which is already been invoiced:
+This report compares the projects' status with the percentage of their value which is already been invoiced.
+
+How to read the project's position on the graph:
 
 * If the project is **above the diagonal**: more work days than the actually done have been invoiced;
 
@@ -239,8 +241,13 @@ You can chose between monthly and weekly visualization via the selector on the t
 Here are listed all the changes done on value or probability of pipeline's projects. For each change you can see:
 
 * The name of the project which has been changed;
+
 * The name of the change's author;
+
 * The change's date;
+
 * The old value and the updated value;
+
 * The old probability and the updated probability;
+
 * The difference between the updated and the old [expected value](glossary/index.md#expected-value).
