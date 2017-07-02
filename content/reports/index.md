@@ -238,7 +238,9 @@ You can chose between monthly and weekly visualization via the selector on the t
 
 ## Changelog
 
-Here are listed all the changes done on value or probability of pipeline's projects. For each change you can see:
+Here are listed all the changes done on value or probability of pipeline's projects.
+
+For each change you can see:
 
 * The name of the project which has been changed;
 
