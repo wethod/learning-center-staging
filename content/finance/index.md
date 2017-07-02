@@ -40,8 +40,7 @@ To create an invoice:
 **<p>You can create invoices only for projects you have already provided with job order and budget</p>**
 {{< /note >}}
 
-
-<div><h2>Clients</h2>
+## Clients
 <p>In this section you can view all your clients and create new ones.</p>
 <p>To create a client:</p>
 <ol>
@@ -49,7 +48,8 @@ To create an invoice:
 <li>Compile the client's empty fields;</li>
 <li>Click on the "<strong>save</strong>" button.</li>
 </ol>
-<h2>Suppliers</h2>
+
+## Suppliers
 <p>In this section you can view all your suppliers and create new ones.</p>
 <p>To create a supplier:</p>
 <ol>
@@ -57,4 +57,3 @@ To create an invoice:
 <li>Compile the supplier's empty fields;</li>
 <li>Click on the "<strong>save</strong>" button.</li>
 </ol>
-</div>
