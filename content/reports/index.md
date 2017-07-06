@@ -22,7 +22,7 @@ This section shows the [budget consumption]({{< relref "glossary/index.md#budget
 
 * If the project is **under the diagonal**: it's using few days but it's progressing faster than predictions based on budget;
 
-* If the project is **on the diagonal**: it's planned and managed correctly.
+* If the project is **on the diagonal**: it’s planned and managed correctly.
 
 By analizing the saved budget versions for the project, WETHOD can shows you:
 
@@ -126,7 +126,7 @@ How to read the project's position on the graph:
 
 * If the project is **under the diagonal**: not al work days done for the project have been invoiced;
 
-* If the project is **on the diagonal**: project status and invoiced percentage are consistent, this means that until now all the work days done has been invoiced.
+*
 
 ## Revenue Pipeline
 
@@ -253,3 +253,4 @@ For each change you can see:
 * The old probability and the updated probability;
 
 * The difference between the updated and the old [expected value](glossary/index.md#expected-value).
+
