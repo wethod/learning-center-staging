@@ -46,6 +46,8 @@ This widget shows all the invoices that must be sent. The invoice list is based 
 
 * Yellow invoices have a low priority because they have to be send in the in a future date.
 
+{{< img-center src="/uploads/2017/07/06/Invoices%20.png" >}}
+
 Hovering on an invoice will shows you the buttons to:
 
 * Go to the project's budget;
