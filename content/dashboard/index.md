@@ -4,6 +4,8 @@ title: Dashboard
 weight: 20
 
 ---
+
+
 ## Overview
 
 The Dashboard is basically a set of widget any one of which can be added, removed and customized by the user.
