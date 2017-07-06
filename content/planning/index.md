@@ -27,6 +27,7 @@ On the top you have three buttons, from the left:
 * The **filter people button** let you filter the teammates you want to see in the planning;
 
 * The **switch weeks button** let you travel in time, you can see future and past weeks. 
+
 {{< img-center src="/uploads/2017/07/06/Planning%203%20bottoms.png">}}
 
 
