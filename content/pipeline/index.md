@@ -4,8 +4,6 @@ title: Pipeline
 weight: 30
 
 ---
-{{< img-center src="/uploads/2017/05/25/nav-pipeline.png" >}}
-
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
@@ -23,6 +21,9 @@ Everything starts from Pipeline, here is where opportunities and projects are li
 * Probability.
 
 Pipeline has three subsections: Basket, Projects and Programs.
+
+{{< img-center src="/uploads/2017/05/25/nav-pipeline.png" >}}
+
 
 ## Basket
 
@@ -50,7 +51,7 @@ A project is considered **active** when its probability reaches 90%, only when t
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
-By clicking on a project you can edit its details or open its: *budget, planning, report, invoice plan.*
+By clicking on a project you can edit its details or open its: [budget]({{< relref "budget/index.md#budget" >}}), planning, report, invoice plan.*
 
 ### Invoice Plan
 
