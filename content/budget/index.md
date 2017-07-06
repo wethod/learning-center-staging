@@ -4,13 +4,11 @@ title: Budget
 weight: 31
 
 ---
-
-
-{{< img-center src="/uploads/2017/06/09/budget.png" >}}
-
 ## Overview
 
 The budget is where you can list all the resources you think you'll need for the project.
+
+{{< img-center src="//uploads/2017/07/06/gif%20budget.gif")}}
 
 Basically, this is the place where you try define (for a project):
 
@@ -25,6 +23,8 @@ Basically, this is the place where you try define (for a project):
 * The external costs;
 
 * The selling price.
+
+{{< img-center src="/uploads/2017/06/09/budget.png">}}
 
 Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
 
