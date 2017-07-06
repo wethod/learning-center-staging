@@ -46,7 +46,7 @@ This widget shows all the invoices that must be sent. The invoice list is based 
 
 * Red invoices have an high priority because they had to be sent in a past date;
 
-*
+* Yellow invoices have a low priority because they have to be send in the in a future date.
 
 Hovering on an invoice will shows you the buttons to:
 
