@@ -56,8 +56,6 @@ Hovering on an invoice will shows you the buttons to:
 
 By clicking on an invoice you can select it plus others and create multiple invoice at once. The created invoices will be automatically filled with the right project's name, client, job order, value and due date. You still can edit your invoices before sending them.
 
-{{< img-center src="/uploads/2017/07/06/Invoices%20.png" >}}
-
 ### Budget Consumption
 
 This widget is a resume of the [Budget Consumption report]({{< relref "reports/index.md#budget-consumption" >}}) .
