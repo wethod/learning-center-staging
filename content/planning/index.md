@@ -4,13 +4,14 @@ title: Planning
 weight: 40
 
 ---
-{{< img-center src="/uploads/2017/06/09/planning.png" >}}<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;"><br></span>
 
 ## Overview
 
 The planning is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota.
 
 You can plan a person by half-days: we think it's not worth planning by more fine-grained amounts of time. If your tasks require less time, just group them!
+
+{{< img-center src="/uploads/2017/06/09/planning.png" >}}<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;"><br></span>
 
 {{< note title="Note" >}}
 **<p>You cannot plan people for the current day: if you don't know what you have to do when you arrive at the office, how can you be productive?</p>**
