@@ -4,8 +4,6 @@ title: Budget
 weight: 31
 
 ---
-
-
 ## Overview
 
 The budget is where you can list all the resources you think you'll need for the project.
