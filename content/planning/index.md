@@ -20,14 +20,17 @@ You can plan a person by half-days: we think it's not worth planning by more fin
 
 ## The Structure
 
-The main part of this section is a kind of calendar: on the top you have the days and on the left all your teammates are listed, to allocate a person you just need to click on the intersection between the day and the person name.
-
-{{< img-center src="/uploads/2017/07/06/GIF%20allocation%20.gif">}}
-
 On the top you have three buttons, from the left:
 
 * The **select project button** let you select the project for which you want to allocate people. Once the project is selected only the half-days allocated for that project will be highlighted, this allow you to still have a general view on the teammates which are already allocated.  When selecting a project, a container will be shown: inside it you can see all the budget days left (by user level), these are the days that can be used to allocate people;
 
 * The **filter people button** let you filter the teammates you want to see in the planning;
 
-* The **switch weeks button** let you travel in time, you can see future and past weeks.
+* The **switch weeks button** let you travel in time, you can see future and past weeks. 
+{{< img-center src="/uploads/2017/07/06/Planning%203%20bottoms.png">}}
+
+
+On the top you have the days and on the left all your teammates are listed, to allocate a person you just need to click on the intersection between the day and the person name.
+
+{{< img-center src="/uploads/2017/07/06/GIF%20allocation%20.gif">}}
+
