@@ -4,8 +4,6 @@ title: Dashboard
 weight: 20
 
 ---
-
-
 ## Overview
 
 The Dashboard is basically a set of widget any one of which can be added, removed and customized by the user.
@@ -48,6 +46,8 @@ This widget shows all the invoices that must be sent. The invoice list is based 
 
 * Yellow invoices have a low priority because they have to be send in the in a future date.
 
+{{< img-center src="/uploads/2017/07/06/Invoices%20.png" >}}
+
 Hovering on an invoice will shows you the buttons to:
 
 * Go to the project's budget;
@@ -55,6 +55,8 @@ Hovering on an invoice will shows you the buttons to:
 * Create the invoice.
 
 By clicking on an invoice you can select it plus others and create multiple invoice at once. The created invoices will be automatically filled with the right project's name, client, job order, value and due date. You still can edit your invoices before sending them.
+
+{{< img-center src="/uploads/2017/07/06/Invoices%20.png" >}}
 
 ### Budget Consumption
 
@@ -73,4 +75,3 @@ This widget shows the [Roadrunner Index]({{< relref "glossary/index.md#roardunne
 Clicking on a project will take you to its [detail report]({{< relref "reports/index.md#project-report" >}}).
 
 {{< img-center src="/uploads/2017/06/12/rri-widget.png" >}}
-
