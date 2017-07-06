@@ -4,8 +4,6 @@ title: Planning
 weight: 40
 
 ---
-
-
 ## Overview
 
 The planning is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota.
@@ -24,7 +22,7 @@ You can plan a person by half-days: we think it's not worth planning by more fin
 
 The main part of this section is a kind of calendar: on the top you have the days and on the left all your teammates are listed, to allocate a person you just need to click on the intersection between the day and the person name.
 
-![](/uploads/2017/07/06/GIF%20allocation%20.gif)
+{{< img-center src="//uploads/2017/07/06/GIF%20allocation%20.gif">}}
 
 On the top you have three buttons, from the left:
 
@@ -33,4 +31,3 @@ On the top you have three buttons, from the left:
 * The **filter people button** let you filter the teammates you want to see in the planning;
 
 * The **switch weeks button** let you travel in time, you can see future and past weeks.
-
