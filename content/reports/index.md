@@ -154,8 +154,6 @@ Clicking on a subcolumn will show a panel listing all the grouped projects with 
 
 ### By Client
 
-![](/uploads/2017/07/06/REV.prog%20by%20client.png)
-
 Clicking on a column will show a panel listing all the grouped projects with their:
 
 * Client's name;
@@ -163,11 +161,11 @@ Clicking on a column will show a panel listing all the grouped projects with the
 * Value;
 
 * Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+
+{{< img-center src="/uploads/2017/07/06/REV.prog%20by%20client.png">}}
 
 ### By Project Type
 
-![](/uploads/2017/07/06/REv.prog%20by%20project%20type.png)
-
 Clicking on a column will show a panel listing all the grouped projects with their:
 
 * Client's name;
@@ -175,6 +173,8 @@ Clicking on a column will show a panel listing all the grouped projects with the
 * Value;
 
 * Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+
+{{< img-center src="/uploads/2017/07/06/REv.prog%20by%20project%20type.png">}}
 
 ## Revenue Actuals
 
