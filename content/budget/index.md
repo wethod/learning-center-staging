@@ -4,6 +4,8 @@ title: Budget
 weight: 31
 
 ---
+
+
 ## Overview
 
 The budget is where you can list all the resources you think you'll need for the project.
@@ -72,7 +74,7 @@ Positioned on the right, this part shows some details about the project's price:
 
 * **Contingency**: life is unpredictable and the unexpected is behind the corner, so why don’t be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating more days to use, just in case. The contingency give you more days which you can use with every user level but, on the other hand, the suggested net price will grow up.
 
-{{< img-center src="/uploads/2017/07/06/budgettop.png" >}}
+{{< img-center src="/uploads/2017/07/06/Budgetbody.png" >}}
 
 ## The Workflow
 
