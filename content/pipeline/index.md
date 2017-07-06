@@ -28,7 +28,7 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Basket
 
-<div><p>The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.</p><p>The significant information listed above are <i>not mandatory</i> for an opportunity.</p><p><span style="font-size: 1rem;">{{&lt; note title="Note" &gt;}}&nbsp;</span><b>Opportunities usually have a probability between 1% and 99%.&nbsp;</b><span style="font-size: 1rem;">{{&lt; /note &gt;}}</span></p></div>
+<div><p>The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.</p><p>The significant information listed above are <i>not mandatory</i> for an opportunity.</p><p><span style="font-size: 1rem;">{{&lt; note title="Note" &gt;}}&nbsp;</span><b style="font-size: 1rem;">Opportunities usually have a probability between 1% and 99%.&nbsp;</b><span style="font-size: 1rem;">{{&lt; /note &gt;}}</span></p></div>
 
 ## Projects
 
