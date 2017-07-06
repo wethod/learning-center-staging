@@ -238,7 +238,7 @@ On the top left corner you can filter the displayed people.
 
 On the top right corner you can change the week of the displayed timesheets.
 
-![](/uploads/2017/07/06/Timesheets.png)
+{{< img-center src="/uploads/2017/07/06/Timesheets.png">}}
 
 ## Timesheet Roadrunner
 
@@ -246,7 +246,7 @@ This report shows all the timesheets for the selected year, grouped by Job Order
 
 You can chose between monthly and weekly visualization via the selector on the top of the section, where you can also find the year selector.
 
-![](/uploads/2017/07/06/RRI.png)
+{{< img-center src="/uploads/2017/07/06/RRI.png">}}
 
 ## Changelog
 
