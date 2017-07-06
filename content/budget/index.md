@@ -60,8 +60,6 @@ For each external cost you can assign a **markup**: a percentage that indicates 
 
 ### The Price's Detail
 
-{{< img-center src="/uploads/2017/07/06/Budgetbody.png">}}
-
 Positioned on the right, this part shows some details about the project's price:
 
 * **Suggested net price**: the price we think is good to sell your project, calculated on the costs;
