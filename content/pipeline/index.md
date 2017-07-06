@@ -4,8 +4,6 @@ title: Pipeline
 weight: 30
 
 ---
-
-
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
@@ -28,7 +26,10 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Basket
 
-<div><p>The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.</p><p>The significant information listed above are <i>not mandatory</i> for an opportunity.</p><p><span style="font-size: 1rem;">{{&lt; note title="Note" &gt;}}&nbsp;</span><b style="font-size: 1rem;">Opportunities usually have a probability between 1% and 99%.&nbsp;</b><span style="font-size: 1rem;">{{&lt; /note &gt;}}</span></p></div>
+The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.The significant information listed above are not mandatory for an opportunity.
+
+{{< note title="Note" >}}
+**Opportunities usually have a probability between 1% and 99%.** {{< /note >}}
 
 ## Projects
 
