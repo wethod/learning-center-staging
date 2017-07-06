@@ -4,8 +4,6 @@ title: Dashboard
 weight: 20
 
 ---
-
-
 ## Overview
 
 The Dashboard is basically a set of widget any one of which can be added, removed and customized by the user.
@@ -28,7 +26,7 @@ This widget shows all the inconsistencies regarding the user. Each alert has a p
 
 Hovering on an alert will display a description of the problem.
 
-![](/uploads/2017/07/06/Alerts.png)
+{{< img-center src="/uploads/2017/07/06/Alerts.png" >}}
 
 [Learn more about alerts]({{< relref "alerts/index.md" >}})
 
@@ -73,4 +71,3 @@ This widget shows the [Roadrunner Index]({{< relref "glossary/index.md#roardunne
 Clicking on a project will take you to its [detail report]({{< relref "reports/index.md#project-report" >}}).
 
 {{< img-center src="/uploads/2017/06/12/rri-widget.png" >}}
-
