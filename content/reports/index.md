@@ -118,6 +118,8 @@ Using filters, you can select the Projects you want to see and explore details s
 
 ## Revenue Progress
 
+![](/uploads/2017/07/06/Revenue%20Progress.png)
+
 This report compares the projects' status with the percentage of their value which is already been invoiced.
 
 How to read the project's position on the graph:
@@ -126,7 +128,7 @@ How to read the project's position on the graph:
 
 * If the project is **under the diagonal**: not al work days done for the project have been invoiced;
 
-*
+* If the project is **on the diagonal**: project status and invoiced percentage are consistent, this means that until now all the work days done has been invoiced.
 
 ## Revenue Pipeline
 
@@ -137,6 +139,8 @@ Each section shows a column diagram, where each column refers to a particular ye
 ### By Probability
 
 Each column is divided into subcolumns which group projects with different probability.
+
+![](/uploads/2017/07/06/REV.progress%20by%20probability.png)
 
 Clicking on a subcolumn will show a panel listing all the grouped projects with their:
 
@@ -152,6 +156,8 @@ Clicking on a subcolumn will show a panel listing all the grouped projects with 
 
 ### By Client
 
+![](/uploads/2017/07/06/REV.prog%20by%20client.png)
+
 Clicking on a column will show a panel listing all the grouped projects with their:
 
 * Client's name;
@@ -161,6 +167,8 @@ Clicking on a column will show a panel listing all the grouped projects with the
 * Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
 ### By Project Type
+
+![](/uploads/2017/07/06/REv.prog%20by%20project%20type.png)
 
 Clicking on a column will show a panel listing all the grouped projects with their:
 
