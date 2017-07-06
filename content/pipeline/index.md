@@ -51,7 +51,7 @@ A project is considered **active** when its probability reaches 90%, only when t
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
-By clicking on a project you can edit its details or open its: [budget]({{< relref "budget/index.md#budget" >}}), [planning report]({{< relref "planning/index.md#planning report >}}), [invoice plan]({{< relref "pipeline/index.md#invoice plan >}}).
+By clicking on a project you can edit its details or open its: [budget]({{< relref "budget/index.md#budget" >}}), [planning report]({{< relref "planning/index.md#planning report" >}})
 
 
 
