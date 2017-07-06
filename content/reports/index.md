@@ -4,8 +4,6 @@ title: Reports
 weight: 60
 
 ---
-
-
 ## Overview
 
 All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects' progress.
@@ -118,7 +116,7 @@ Using filters, you can select the Projects you want to see and explore details s
 
 ## Revenue Progress
 
-![](/uploads/2017/07/06/Revenue%20Progress.png)
+{{< img-center src="/uploads/2017/07/06/Revenue%20Progress.png" >}}
 
 This report compares the projects' status with the percentage of their value which is already been invoiced.
 
@@ -129,6 +127,8 @@ How to read the project's position on the graph:
 * If the project is **under the diagonal**: not al work days done for the project have been invoiced;
 
 * If the project is **on the diagonal**: project status and invoiced percentage are consistent, this means that until now all the work days done has been invoiced.
+
+{{< img-center src="/uploads/2017/07/06/Revenue%20Progress.png" >}}
 
 ## Revenue Pipeline
 
@@ -261,4 +261,3 @@ For each change you can see:
 * The old probability and the updated probability;
 
 * The difference between the updated and the old [expected value](glossary/index.md#expected-value).
-
