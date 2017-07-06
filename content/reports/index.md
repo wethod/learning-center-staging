@@ -116,8 +116,6 @@ Using filters, you can select the Projects you want to see and explore details s
 
 ## Revenue Progress
 
-{{< img-center src="/uploads/2017/07/06/Revenue%20Progress.png" >}}
-
 This report compares the projects' status with the percentage of their value which is already been invoiced.
 
 How to read the project's position on the graph:
@@ -140,8 +138,6 @@ Each section shows a column diagram, where each column refers to a particular ye
 
 Each column is divided into subcolumns which group projects with different probability.
 
-![](/uploads/2017/07/06/REV.progress%20by%20probability.png)
-
 Clicking on a subcolumn will show a panel listing all the grouped projects with their:
 
 * Name;
@@ -153,6 +149,8 @@ Clicking on a subcolumn will show a panel listing all the grouped projects with 
 * Probability;
 
 * [Expected value]({{< relref "glossary/index.md#expected-value" >}}).
+
+{{< img-center src="/uploads/2017/07/06/REV.progress%20by%20probability.png">}}
 
 ### By Client
 
