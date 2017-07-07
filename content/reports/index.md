@@ -112,7 +112,9 @@ For each pipeline's project, its [budget consumption]({{< relref "glossary/inde
 
 Using filters, you can select the Projects you want to see and explore details such as billed hours, invoiced totals, and internal and external purchase orders.
 
-<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;">Revenue Progress</span>
+{{< img-center src="/uploads/2017/07/06/Revenue%20Progress.png" >}}
+
+## Revenue Progress
 
 This report compares the projects' status with the percentage of their value which is already been invoiced.
 
