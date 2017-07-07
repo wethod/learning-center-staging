@@ -36,4 +36,4 @@ On the top you have three buttons, from the left:
 
 All your teammates are listed on the left, to allocate a person you just need to click on the intersection between the day and the person name.
 
-{{< img-center src="/uploads/2017/07/06/GIF%20allocation%20.gif">}}
+{{< img-center src="/uploads/2017/07/07/planning-allocate.gif">}}
