@@ -112,7 +112,7 @@ For each pipeline's project, its [budget consumption]({{< relref "glossary/inde
 
 Using filters, you can select the Projects you want to see and explore details such as billed hours, invoiced totals, and internal and external purchase orders.
 
-{{< img-center src="/uploads/2017/05/25/bubbles_tour_01.jpg" >}}
+{{< img-center src="/uploads/2017/07/07/Budg.consumption.png" >}}
 
 ## Revenue Progress
 
