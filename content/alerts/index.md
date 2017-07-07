@@ -84,9 +84,7 @@ It's a good practice to archive your projects when their project status reach 0.
 
 This alert is shown if you're manager of a project with probability greater than 50% but with budget in draft or missing.<span style="font-size: 1rem;">&nbsp;</span>
 
-{{< note title="Note" >}}
 The aim of this alert is to show to the project manager, given the inconsistent probability, maybe it should be useful to do as much as possible in order to work with an approved budget.
-{{< /note >}}
 
 ### Planning or Timesheet but Probability < 90%
 
