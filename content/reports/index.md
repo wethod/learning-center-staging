@@ -46,7 +46,7 @@ On the right of the graph you have:
 
 1. A resume of the worked, planned, wasted and still available hours.
 
-{{< img-center src="/uploads/2017/07/07/budg.con:Proj.status.png" >}}
+{{< img-center src="/uploads/2017/07/07/budg.con:Proj.status-1.png" >}}
 
 ### Invoices & Orders
 
@@ -86,7 +86,7 @@ For each indicator you can see its value for:
 
 The grey percentage under *margin* refers to the *revenues*.
 
-{{< img-center src="/uploads/2017/07/07/economics.png" >}}
+{{< img-center src="/uploads/2017/07/07/economics-1.png" >}}
 
 ### Timesheet / Project Status
 
@@ -112,9 +112,7 @@ For each pipeline's project, its [budget consumption]({{< relref "glossary/inde
 
 Using filters, you can select the Projects you want to see and explore details such as billed hours, invoiced totals, and internal and external purchase orders.
 
-{{< img-center src="/uploads/2017/07/07/Budg.consumption.png" >}}
-
-## Revenue Progress
+<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;">Revenue Progress</span>
 
 This report compares the projects' status with the percentage of their value which is already been invoiced.
 
@@ -126,7 +124,7 @@ How to read the project's position on the graph:
 
 * If the project is **on the diagonal**: project status and invoiced percentage are consistent, this means that until now all the work days done has been invoiced.
 
-{{< img-center src="/uploads/2017/07/06/Revenue%20Progress.png" >}}
+{{< img-center src="/uploads/2017/07/07/Budg.consumption-1.png" >}}
 
 ## Revenue Pipeline
 
