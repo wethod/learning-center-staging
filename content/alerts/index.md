@@ -64,7 +64,7 @@ The problem depends on:
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-* How to solve? You have to increase your budget progress*
+*How to solve? You have to increase your budget progress*
 
 ### Project Status / Archived
 
