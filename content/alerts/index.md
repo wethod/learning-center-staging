@@ -213,4 +213,6 @@ This alert is shown to you if you're not planned for tomorrow (Saturday and Sund
 
 ### Orders / External Cost
 
-This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the budget external costs. You don't want to spend money you don't have, right?
+This alert shows to the manager of a project where the sum of orders, travels and expenses go over the [budget external cost]({{< relref "budget/index.md#budget external cost" >}})
+
+**You don't want to spend money you don't have, do you?**
