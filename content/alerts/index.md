@@ -51,7 +51,7 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 {{< note title="Note" >}}
 
-* Project id, project id_budget, project status
+* Project id, project id budget, project status
 
 * Budget id, budget status
 
@@ -73,7 +73,9 @@ This alert is shown if you're manager of a project where the [budget consumption
 
 * Sum of the timetracking hours on the project
 
-*
+* Margin 
+
+{{< /note >}}
 
 ### Budget Consumption Too Slow
 
