@@ -86,7 +86,7 @@ For each indicator you can see its value for:
 
 The grey percentage under *margin* refers to the *revenues*.
 
-{{< img-center src="/uploads/2017/06/12/report-economics.png" >}}
+{{< img-center src="/uploads/2017/07/07/economics.png" >}}
 
 ### Timesheet / Project Status
 
