@@ -4,8 +4,6 @@ title: Alerts
 weight: 21
 
 ---
-
-
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -59,7 +57,9 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 * Employee id, employee id person, employee type;
 
-*
+* Roles; 
+
+{{< /note >}}
 
 ### Budget Consumption Too Fast
 
