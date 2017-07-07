@@ -48,8 +48,6 @@ Solution: the project can be considered active and its probability is higher or 
 
 This alert is shown if you have the permission to approve budgets and there's a budget waiting for approval.
 
-{{< note title="Note" >}}
-
 * Project id, project id budget, project status
 
 * Budget id, budget status
@@ -57,8 +55,6 @@ This alert is shown if you have the permission to approve budgets and there's a 
 * Employee id, employee id person, employee type;
 
 * Roles;
-
-{{< /note >}}
 
 ### Budget Consumption Too Fast
 
