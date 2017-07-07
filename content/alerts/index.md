@@ -141,7 +141,7 @@ A project is considered started if it has a start date in the past or if someone
 
 ### Project Status
 
-If there is a project whose timesheet is settled but the project status not then there is this alert in order to remind the manager of a project who forgot to update the [project status]({{< relref "friday/index.md#project status" >}}) in the last two weeks.
+If there is a project whose [timesheet]({{< relref "friday/index.md#timesheet" >}}) is settled but the project status not then there is this alert in order to remind the manager of a project who forgot to update the [project status]({{< relref "friday/index.md#project status" >}}) in the last two weeks.
 
 ### Timesheet
 
