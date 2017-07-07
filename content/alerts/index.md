@@ -60,8 +60,6 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-{{< note title="Note" >}}
-
 * Project probability
 
 * The last project status added
@@ -69,8 +67,6 @@ This alert is shown if you're manager of a project where the [budget consumption
 * Sum of the timetracking hours on the project
 
 * Margin
-
-{{< /note >}}
 
 ### Budget Consumption Too Slow
 
