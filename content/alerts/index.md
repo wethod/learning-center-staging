@@ -34,9 +34,9 @@ This alert is shown to the project manager who have created an opportunity that'
 
 This alert is shown to the project manager of a project which has:
 
-* An [invoice plan]({{< relref "pipeline/index.md#invoice plan" >}}) manually set;
+* **An [invoice plan]({{< relref "pipeline/index.md#invoice plan" >}}) manually set;**
 
-* A probability lower than 90%.
+* **A probability lower than 90%.**
 
 *How to solve? The project can be considered active if its probability is higher or equal to 90%. *
 
@@ -65,6 +65,8 @@ The problem depends on:
 ### Budget Consumption Too Slow
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+
+*How to solve? You have to increase your budget progress*
 
 ### Project Status / Archived
 
@@ -101,7 +103,7 @@ Notice that:
 
 This alert is shown to the project manager if one of the following situations happens:
 
-* Project has probability of 100% or has some Invoices but there isn't a Purchase Order set for the project
+* **Project has probability of 100% or has some Invoices but there isn't a Purchase Order set for the project**
 
 *
 
