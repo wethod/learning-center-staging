@@ -20,6 +20,8 @@ On the top you have three buttons, from the left:
 
 * The **switch weeks button** let you travel in time, you can see future and past weeks.
 
+All your teammates are listed on the left, to allocate a person you just need to click on the intersection between the day and the person name.
+
 {{< img-center src="/uploads/2017/07/07/planning-allocate.gif">}}
 
 {{< note title="Note" >}}
@@ -30,7 +32,4 @@ On the top you have three buttons, from the left:
 
 {{< /note >}}
 
-{{< img-center src="/uploads/2017/07/06/Planning%203%20bottoms.png">}}
-
-All your teammates are listed on the left, to allocate a person you just need to click on the intersection between the day and the person name, as shown in the previous image.
 
