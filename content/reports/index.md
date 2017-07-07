@@ -126,7 +126,7 @@ How to read the project's position on the graph:
 
 * If the project is **on the diagonal**: project status and invoiced percentage are consistent, this means that until now all the work days done has been invoiced.
 
-{{< img-center src="/uploads/2017/07/07/Budg.consumption-1.png" >}}
+{{< img-center src="/uploads/2017/07/07/Revenue%20Progress.png" >}}
 
 ## Revenue Pipeline
 
