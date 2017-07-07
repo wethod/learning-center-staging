@@ -8,7 +8,7 @@ weight: 31
 
 The budget is where you can list all the resources you think you'll need for the project.
 
-{{< img-center src="/uploads/2017/07/06/GIF2%20Budget.gif" >}}
+{{< img-center src="/uploads/2017/07/07/budget-giftop.gif">}}
 
 Basically, this is the place where you try define (for a project):
 
