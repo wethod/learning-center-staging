@@ -4,15 +4,13 @@ title: Alerts
 weight: 21
 
 ---
-
-
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
 
-* Red alerts have an high priority and must be solved as soon as possible;
+* **Red alerts** have an high priority and must be solved as soon as possible;
 
-* Yellow alerts have a low priority and can be seen more as advices.
+* **Yellow alerts** have a low priority and can be seen more as advices.
 
 Hovering on an alert will display a description of the problem.
 
