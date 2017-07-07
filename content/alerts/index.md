@@ -21,25 +21,51 @@ Hovering on an alert will display a description of the problem. {{< /note >}}
 
 This alert is shown to the project manager who have created orders not sent yet.
 
+{{< note title="Note" >}}
+It depends on **the project** and on **the order**.
+{{< /note >}}
+
 ### Opportunity Due Date
 
 This alert is shown to the project manager who have created an opportunity that's expiring in 3 days or that's already expired.
+
+{{< note title="Note" >}}
+It depends on **the opportunity**.
+{{< /note >}}
 
 ### Project Probability / Invoice Plan
 
 This alert is shown to the project manager of a project which has:
 
-* An invoice plan manually set;
+* An [invoice plan]({{< relref "pipeline/index.md#invoice plan" >}}) manually set;
 
 * A probability lower than 90%.
+
+{{< note title="Note" >}}
+Solution: the project can be considered active and its probability is higher or equal to 90%.
+{{< /note >}}
 
 ### Budget Submitted
 
 This alert is shown if you have the permission to approve budgets and there's a budget waiting for approval.
 
+{{< note title="Note" >}}
+* Project id, project id_budget, project status
+* Budget id, budget status
+* Employee id, employee id person, employee type;
+* Roles;
+{{< /note >}}
+
 ### Budget Consumption Too Fast
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+
+{{< note title="Note" >}}
+* Project probability
+* The last project status added
+* Sum of the timetracking hours on the project
+* Margin 
+{{< /note >}}
 
 ### Budget Consumption Too Slow
 
@@ -49,19 +75,37 @@ This alert is shown if you're manager of a project where the [budget consumption
 
 This alert is shown if you're manager of a finished project which isn't already been archived.
 
+{{< note title="Note" >}}
 It's a good practice to archive your projects when their project status reach 0.
+{{< /note >}}
 
 ### Project Probability / Budget
 
 This alert is shown if you're manager of a project with probability greater than 50% but with budget in draft or missing.<span style="font-size: 1rem;">&nbsp;</span>
 
+{{< note title="Note" >}}
+The aim of this alert is to show to the project manager, given the inconsistent probability, maybe it should be useful to do as much as possible in order to work with an approved budget.
+{{< /note >}}
+ 
+
 ### Planning or Timesheet but Probability < 90%
 
 This alert is shown if you're manager of a project with probability lower than 90% but which already have a planning and/or timesheets.
 
+{{< note title="Note" >}}
+**Remember**: a project is considered active only if it has a probability greater or equal to 90%. 
+For a project that is not active yet, it is a no sense to plan resources or to register a timesheet. 
+{{< /note >}}
+
+
 ### Planning > Project Status
 
 This alert is shown if you're manager of a project for which are planned (in the future) more days than the last project status days. What's the meaning of requiring more resources than what you really need?
+
+{{< note title="Note" >}}
+**Future Planned Days**: the days that are planned for the project in the future 
+**Project Status Days**: the days left to the realization of the project 
+{{< /note >}}
 
 ### Client PO
 
@@ -71,20 +115,26 @@ This alert is shown to the project manager if one of the following situations ha
 
 * A Purchase Order is set for the project despite its probability is lower than 100%.
 
-A Purchase Order is needed to emit invoices, so it's strange that a 100% probability project hasn't a Purchase Order or vice versa.
+{{< note title="Note" >}}
+A **Purchase Order** is needed to emit invoices, so it's strange that a 100% probability project hasn't a Purchase Order or vice versa.
+{{< /note >}}
+
 
 ### Project Start
 
 This alert is shown to the project manager if one of the following situations happens:
 
-* A project is started but its probability is lower than 90%;
+* **A project is started but its probability is lower than 90%**;
 
-* A project is going to start during the current month but its probability is lower than 75%.
+* **A project is going to start during the current month but its probability is lower than 75%**.
 
+{{< note title="Note" >}}
 A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.
+{{< /note >}}
 
 ### Project Status
 
+If there is a project for which a timesheet is settled but the project status  
 This alert is shown to the manager of a project who forgot to update the project status in the last two weeks.
 
 ### Timesheet
