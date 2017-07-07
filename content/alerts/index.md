@@ -4,8 +4,6 @@ title: Alerts
 weight: 21
 
 ---
-
-
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -60,13 +58,13 @@ The problem depends on:
 
 * Margin
 
-*<span style="font-size: 1rem;">How to solve?&nbsp;</span>Increase your project's progress until it's greater then Budget Consumption*
+*How to solve? Increase your project's progress until it's greater then Budget Consumption*
 
 ### Budget Consumption Too Slow
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-*How to solve? You have to increase your budget progress*
+* How to solve? You have to increase your budget progress*
 
 ### Project Status / Archived
 
@@ -86,14 +84,14 @@ The aim of this alert is to show to the project manager, given the inconsistent 
 
 This alert is shown if you're manager of a project with probability lower than 90% but which already have a planning and/or timesheets.
 
-*<span style="font-size: 1rem;">How to solve?&nbsp;</span>Remember that a project is considered active only if it has a probability greater or equal to 90%.
+*How to solve? Remember that a project is considered active only if it has a probability greater or equal to 90%.
 For a project that is not active yet, it is a no sense to plan resources or to register a timesheet. *
 
 ### Planning > Project Status
 
 This alert is shown if you're manager of a project for which are planned (in the future) more days than the last project status days. What's the meaning of requiring more resources than what you really need?
 
-*<span style="font-size: 1rem;">How to solve?&nbsp;</span><span style="font-size: 1rem;">The project manager have to require the right number of resources.</span>*
+*How to solve? The project manager have to require the right number of resources. *
 
 Notice that:
 **Future Planned Days**: the days that are planned for the project in the future
@@ -105,7 +103,7 @@ This alert is shown to the project manager if one of the following situations ha
 
 * **Project has probability of 100% or has some Invoices but there isn't a Purchase Order set for the project**
 
-*
+* **A Purchase Order is set for the project despite its probability is lower than 100%**
 
 ### Project Start
 
@@ -122,13 +120,13 @@ A project is considered started if it has a start date in the past or if someone
 
 If there is a project whose [timesheet]({{< relref "friday/index.md#timesheet" >}}) is settled but the project status not then there is this alert in order to remind the manager of a project who forgot to update the [project status]({{< relref "friday/index.md#project status" >}}) in the last two weeks.
 
-<span style="font-size: 1rem;">How to solve?&nbsp;</span>*On Friday a project manager have to settle the project status*
+*How to solve? On Friday a project manager have to settle the project status *
 
 ### Timesheet - Time Tracking Alert
 
 This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
 
-*<span style="font-size: 1rem;">How to solve?</span> Do the timesheet as soon as possible!*
+*<How to solve? Do the timesheet as soon as possible!*
 
 ## RED Alerts
 
@@ -136,7 +134,7 @@ This alert is shown to the employee of a project who forgot to submit the timesh
 
 This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date.
 
-*<span style="font-size: 1rem;">How to solve? Understand why</span> your teammates are doing timesheets for a non active project*
+*How to solve? Understand your teammates are doing timesheets for a non active project*
 
 ### Invoice Plan / Budget Final Net Price
 
@@ -179,14 +177,14 @@ This alert is shown to the manager of a non chargeable project which has a final
 
 *How to solve? If there is a non chargeable project, you do not have to fix a final net price.*
 
-<span style="color: rgb(40, 40, 40); font-size: 1.5em; word-spacing: 0.5px;">Empty Planning</span>
+### Empty Planning
 
 This alert is shown to you if you're not planned for tomorrow (Saturday and Sunday excluded).
 
-*<span style="font-size: 1rem;">How to solve?&nbsp;</span>What are you waiting for? Go [planning]({{< relref "planning/index.md#planning" >}})!*
+*How to solve? What are you waiting for? Go [planning]({{< relref "planning/index.md#planning" >}})!*
 
 ### Orders / External Cost
 
 This alert shows to the manager of a project where the sum of orders, travels and expenses go over the [budget external cost]({{< relref "budget/index.md#budget external cost" >}})
 
-*<span style="font-size: 1rem;">How to solve?&nbsp;</span>You don't want to spend money you don't have, do you? You do not have to go over the budget!*
+*How to solve? You don't want to spend money you don't have, do you? You do not have to go over the budget!*
