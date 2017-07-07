@@ -12,8 +12,7 @@ This widget shows all the inconsistencies regarding the user. Each alert has a p
 
 * **Red alerts** have an high priority and must be solved as soon as possible;
 
-{{< note title="Note" >}}
-Hovering on an alert will display a description of the problem. {{< /note >}}
+Hovering on an alert will display a description of the problem. 
 
 ## YELLOW Alerts
 
