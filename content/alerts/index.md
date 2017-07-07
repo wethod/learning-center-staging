@@ -4,6 +4,8 @@ title: Alerts
 weight: 21
 
 ---
+
+
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -50,22 +52,28 @@ Solution: the project can be considered active and its probability is higher or 
 This alert is shown if you have the permission to approve budgets and there's a budget waiting for approval.
 
 {{< note title="Note" >}}
+
 * Project id, project id_budget, project status
+
 * Budget id, budget status
+
 * Employee id, employee id person, employee type;
-* Roles;
-{{< /note >}}
+
+*
 
 ### Budget Consumption Too Fast
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
 {{< note title="Note" >}}
+
 * Project probability
+
 * The last project status added
+
 * Sum of the timetracking hours on the project
-* Margin 
-{{< /note >}}
+
+*
 
 ### Budget Consumption Too Slow
 
@@ -86,25 +94,23 @@ This alert is shown if you're manager of a project with probability greater than
 {{< note title="Note" >}}
 The aim of this alert is to show to the project manager, given the inconsistent probability, maybe it should be useful to do as much as possible in order to work with an approved budget.
 {{< /note >}}
- 
 
 ### Planning or Timesheet but Probability < 90%
 
 This alert is shown if you're manager of a project with probability lower than 90% but which already have a planning and/or timesheets.
 
 {{< note title="Note" >}}
-**Remember**: a project is considered active only if it has a probability greater or equal to 90%. 
-For a project that is not active yet, it is a no sense to plan resources or to register a timesheet. 
+**Remember**: a project is considered active only if it has a probability greater or equal to 90%.
+For a project that is not active yet, it is a no sense to plan resources or to register a timesheet.
 {{< /note >}}
-
 
 ### Planning > Project Status
 
 This alert is shown if you're manager of a project for which are planned (in the future) more days than the last project status days. What's the meaning of requiring more resources than what you really need?
 
 {{< note title="Note" >}}
-**Future Planned Days**: the days that are planned for the project in the future 
-**Project Status Days**: the days left to the realization of the project 
+**Future Planned Days**: the days that are planned for the project in the future
+**Project Status Days**: the days left to the realization of the project
 {{< /note >}}
 
 ### Client PO
@@ -118,7 +124,6 @@ This alert is shown to the project manager if one of the following situations ha
 {{< note title="Note" >}}
 A **Purchase Order** is needed to emit invoices, so it's strange that a 100% probability project hasn't a Purchase Order or vice versa.
 {{< /note >}}
-
 
 ### Project Start
 
@@ -134,8 +139,7 @@ A project is considered started if it has a start date in the past or if someone
 
 ### Project Status
 
-If there is a project for which a timesheet is settled but the project status  
-This alert is shown to the manager of a project who forgot to update the project status in the last two weeks.
+If there is a project whose timesheet is settled but the project status not then there is this alert in order to remind the manager of a project who forgot to update the [project status]({{< relref "friday/index.md#project status" >}}) in the last two weeks.
 
 ### Timesheet
 
