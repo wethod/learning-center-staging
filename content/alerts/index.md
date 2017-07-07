@@ -207,10 +207,9 @@ It depends on:
 
 ### Empty Planning
 
-What are you waiting for? Go [planning]({{< relref "planning/index.md#planning" >}})!
-
 This alert is shown to you if you're not planned for tomorrow (Saturday and Sunday excluded).
 
+**What are you waiting for? Go [planning]({{< relref "planning/index.md#planning" >}})!**
 
 ### Orders / External Cost
 
