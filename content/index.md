@@ -5,8 +5,6 @@ type: index
 weight: 0
 
 ---
-
-
 ## What It Is
 
 **THIS IS THE STAGING VERSION OF THE SITE**
@@ -67,4 +65,8 @@ The content of this guide is organized as the WETHOD app sections so, to make yo
 
 * If you are interested in a specific section, use the **side menu** to find it;
 
-*
+* If our explanation doesn’t fit for you:
+
+Use the FAQ section to find popular questions about WETHOD or make a new one
+
+Send us an email at info@wethod.com, we’ll answer you as soon as possible.
