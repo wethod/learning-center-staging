@@ -8,14 +8,14 @@ weight: 21
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
 
-* **Red alerts** have an high priority and must be solved as soon as possible;
-
 * **Yellow alerts** have a low priority and can be seen more as advices.
+
+* **Red alerts** have an high priority and must be solved as soon as possible;
 
 {{< note title="Note" >}}
 Hovering on an alert will display a description of the problem. {{< /note >}}
 
-## Description
+## YELLOW Alerts
 
 ### Unsent Order
 
@@ -57,7 +57,7 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 * Employee id, employee id person, employee type;
 
-* Roles; 
+* Roles;
 
 {{< /note >}}
 
@@ -73,7 +73,7 @@ This alert is shown if you're manager of a project where the [budget consumption
 
 * Sum of the timetracking hours on the project
 
-* Margin 
+* Margin
 
 {{< /note >}}
 
@@ -131,9 +131,9 @@ A **Purchase Order** is needed to emit invoices, so it's strange that a 100% pro
 
 This alert is shown to the project manager if one of the following situations happens:
 
-* **A project is started but its probability is lower than 90%**;
+* **A project is started but its probability is lower than 90%**
 
-* **A project is going to start during the current month but its probability is lower than 75%**.
+* **A project is going to start during the current month but its probability is lower than 75%**
 
 {{< note title="Note" >}}
 A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.
@@ -143,33 +143,44 @@ A project is considered started if it has a start date in the past or if someone
 
 If there is a project whose [timesheet]({{< relref "friday/index.md#timesheet" >}}) is settled but the project status not then there is this alert in order to remind the manager of a project who forgot to update the [project status]({{< relref "friday/index.md#project status" >}}) in the last two weeks.
 
-### Timesheet
+### Timesheet - Time Tracking Alert
 
 This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
 
+**It is a reminder for the employee that have to do the timesheet as soon as possible**
+
+
+## RED Alerts
+
 ### Project Duration / Timesheet
 
-This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date. Why are your teammates doing timesheets for a non active project?
+This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date. 
+
+**Why are your teammates doing timesheets for a non active project?**
 
 ### Invoice Plan / Budget Final Net Price
 
 This alert is shown to the manager of a project if the following situations happens:
 
-* The invoice plan is set as manual;
+* **The invoice plan is set as manual**
 
-* Invoice plan's total amount and final net price mismatch.
+* **Invoice plan's total amount and final net price  mismatch**
 
+{{< note title="Note" >}}
 This can happen when you edit budget after setting invoice plan as manual.
+{{< /note >}}
 
 ### Job Order / Project Probability
 
 This alert is shown to the manager of a project if one of the following situations happens:
 
-* The probability si greater than 90% but the project has't a job order;
+* **The probability si greater than 90% but the project has't a job order**
 
-* The probability si lower than 90% and the project has a job order.
+* **The probability si lower than 90% and the project has a job order**
 
-Only active project must have a [job order]({{< relref "glossary/index.md#job-order" >}}).
+{{< note title="Note" >}}
+Remind that only active projects, which means projects with a probability greater or equal to 90% must have a [job order]({{< relref "glossary/index.md#job-order" >}}).
+{{< /note >}}
 
 ### Planning / Project End
 
