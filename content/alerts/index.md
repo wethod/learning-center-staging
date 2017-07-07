@@ -4,6 +4,8 @@ title: Alerts
 weight: 21
 
 ---
+
+
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -20,9 +22,7 @@ Hovering on an alert will display a description of the problem.
 
 This alert is shown to the project manager who have created orders not sent yet.
 
-{{< note title="Note" >}}
-To solve the problem the pm have to send the orders
-{{< /note >}}
+*How to solve? Just send all the waiting orders.*
 
 ### Opportunity Due Date
 
