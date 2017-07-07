@@ -12,7 +12,7 @@ This widget shows all the inconsistencies regarding the user. Each alert has a p
 
 * **Red alerts** have an high priority and must be solved as soon as possible;
 
-Hovering on an alert will display a description of the problem. 
+Hovering on an alert will display a description of the problem.
 
 ## YELLOW Alerts
 
@@ -21,7 +21,7 @@ Hovering on an alert will display a description of the problem.
 This alert is shown to the project manager who have created orders not sent yet.
 
 {{< note title="Note" >}}
-It depends on **the project** and on **the order**.
+To solve the problem the pm have to send the orders
 {{< /note >}}
 
 ### Opportunity Due Date
@@ -29,7 +29,7 @@ It depends on **the project** and on **the order**.
 This alert is shown to the project manager who have created an opportunity that's expiring in 3 days or that's already expired.
 
 {{< note title="Note" >}}
-It depends on **the opportunity**.
+You have to create a budget in order to transform the opportuniy in a project or simply change the timeline.
 {{< /note >}}
 
 ### Project Probability / Invoice Plan
@@ -41,24 +41,26 @@ This alert is shown to the project manager of a project which has:
 * A probability lower than 90%.
 
 {{< note title="Note" >}}
-Solution: the project can be considered active and its probability is higher or equal to 90%.
+Solution: the project can be considered active if its probability is higher or equal to 90%.
 {{< /note >}}
 
 ### Budget Submitted
 
-This alert is shown if you have the permission to approve budgets and there's a budget waiting for approval.
+This alert is shown if you have the permission to approve budgets and **there's a budget waiting for approval**.
 
 * Project id, project id budget, project status
 
 * Budget id, budget status
 
-* Employee id, employee id person, employee type;
+* Employee id, employee id person, employee type
 
-* Roles;
+* Roles
 
 ### Budget Consumption Too Fast
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+
+The problem depends on:
 
 * Project probability
 
@@ -67,6 +69,8 @@ This alert is shown if you're manager of a project where the [budget consumption
 * Sum of the timetracking hours on the project
 
 * Margin
+
+**Increase your project's progress until it's greater then Budget Consumption**
 
 ### Budget Consumption Too Slow
 
@@ -84,7 +88,7 @@ It's a good practice to archive your projects when their project status reach 0.
 
 This alert is shown if you're manager of a project with probability greater than 50% but with budget in draft or missing.<span style="font-size: 1rem;">&nbsp;</span>
 
-The aim of this alert is to show to the project manager, given the inconsistent probability, maybe it should be useful to do as much as possible in order to work with an approved budget.
+The aim of this alert is to show to the project manager, given the inconsistent probability, maybe **it should be useful to do as much as possible in order to work with an approved budget**.
 
 ### Planning or Timesheet but Probability < 90%
 
@@ -98,22 +102,23 @@ For a project that is not active yet, it is a no sense to plan resources or to r
 ### Planning > Project Status
 
 This alert is shown if you're manager of a project for which are planned (in the future) more days than the last project status days. What's the meaning of requiring more resources than what you really need?
+**The project manager have to require the right number of resources.**
 
-{{< note title="Note" >}}
+Notice that:
 **Future Planned Days**: the days that are planned for the project in the future
 **Project Status Days**: the days left to the realization of the project
-{{< /note >}}
 
 ### Client PO
 
 This alert is shown to the project manager if one of the following situations happens:
 
-* Project has probability of 100% or has some Invoices but there isn't a Purchase Order set for the project;
+* Project has probability of 100% or has some Invoices but there isn't a Purchase Order set for the project
 
-* A Purchase Order is set for the project despite its probability is lower than 100%.
+* A Purchase Order is set for the project despite its probability is lower than 100%
 
 {{< note title="Note" >}}
 A **Purchase Order** is needed to emit invoices, so it's strange that a 100% probability project hasn't a Purchase Order or vice versa.
+As a result if you have a project with a probability of 100%, then organize your Purchase Order
 {{< /note >}}
 
 ### Project Start
@@ -125,6 +130,7 @@ This alert is shown to the project manager if one of the following situations ha
 * **A project is going to start during the current month but its probability is lower than 75%**
 
 {{< note title="Note" >}}
+**Ready to start your project?**
 A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.
 {{< /note >}}
 
@@ -132,18 +138,19 @@ A project is considered started if it has a start date in the past or if someone
 
 If there is a project whose [timesheet]({{< relref "friday/index.md#timesheet" >}}) is settled but the project status not then there is this alert in order to remind the manager of a project who forgot to update the [project status]({{< relref "friday/index.md#project status" >}}) in the last two weeks.
 
+**On Friday a project manager have to settle the project status**
+
 ### Timesheet - Time Tracking Alert
 
 This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
 
-It is a reminder for the employee that have to do the timesheet as soon as possible.
-
+**A solution? Do the timesheet as soon as possible!**
 
 ## RED Alerts
 
 ### Project Duration / Timesheet
 
-This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date. 
+This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date.
 
 **Why are your teammates doing timesheets for a non active project?**
 
@@ -180,19 +187,20 @@ This alert is shown to the manager of a project for which are planned people eve
 This alert is shown to the manager of a project which has future planned resources but hasn't an approved [budget]({{< relref "budget/index.md#budget" >}})
 
 The planned resources show that the project is active but the budget is not approved, so the alert remind you to approve it as soon as possible.
-You cannot plan resources if you haven't a budget which gives you the right to do it.
-
+You cannot plan resources if you haven't a budget which gives you the right to do it, as a consequence **you should increase your budget.**
 
 ### Non Chargeable / Budget Final Net Price
 
-This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. this is a paradox because non chargeable project can't have revenues by definition.
+This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. This is a paradox because non chargeable project can't have revenues by definition.
 
 {{< note title="Note" >}}
 It depends on:
-* project type and project budget, 
+
+* project type and project budget
+
 * chargeable project
+
 * budget/final net price
-{{< /note >}}
 
 ### Empty Planning
 
