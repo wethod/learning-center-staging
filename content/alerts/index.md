@@ -147,7 +147,7 @@ If there is a project whose [timesheet]({{< relref "friday/index.md#timesheet" >
 
 This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
 
-**It is a reminder for the employee that have to do the timesheet as soon as possible**
+It is a reminder for the employee that have to do the timesheet as soon as possible.
 
 
 ## RED Alerts
@@ -184,21 +184,33 @@ Remind that only active projects, which means projects with a probability greate
 
 ### Planning / Project End
 
-This alert is shown to the manager of a project for which are planned people somewhen after the project's end date.
+This alert is shown to the manager of a project for which are planned people even after the project's end date.
 
 ### Planning / Budget Status
 
-This alert is shown to the manager of a project which has future planned resources but hasn't an approved budget.
+This alert is shown to the manager of a project which has future planned resources but hasn't an approved [budget]({{< relref "budget/index.md#budget" >}})
 
+The planned resources show that the project is active but the budget is not approved, so the alert remind you to approve it as soon as possible.
 You cannot plan resources if you haven't a budget which gives you the right to do it.
+
 
 ### Non Chargeable / Budget Final Net Price
 
-This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. A non chargeable project can't have revenues by definition.
+This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. this is a paradox because non chargeable project can't have revenues by definition.
+
+{{< note title="Note" >}}
+It depends on:
+* project type and project budget, 
+* chargeable project
+* budget/final net price
+{{< /note >}}
 
 ### Empty Planning
 
+What are you waiting for? Go [planning]({{< relref "planning/index.md#planning" >}})!
+
 This alert is shown to you if you're not planned for tomorrow (Saturday and Sunday excluded).
+
 
 ### Orders / External Cost
 
