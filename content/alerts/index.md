@@ -193,7 +193,6 @@ You cannot plan resources if you haven't a budget which gives you the right to d
 
 This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. This is a paradox because non chargeable project can't have revenues by definition.
 
-{{< note title="Note" >}}
 It depends on:
 
 * project type and project budget
@@ -206,7 +205,9 @@ It depends on:
 
 This alert is shown to you if you're not planned for tomorrow (Saturday and Sunday excluded).
 
+{{< note title="Note" >}}
 **What are you waiting for? Go [planning]({{< relref "planning/index.md#planning" >}})!**
+{{< /note >}}
 
 ### Orders / External Cost
 
