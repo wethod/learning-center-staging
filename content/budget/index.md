@@ -4,13 +4,11 @@ title: Budget
 weight: 31
 
 ---
-
-
 ## Overview
 
 The budget is where you can list all the resources you think you'll need for the project.
 
-![](/uploads/2017/07/07/budget-giftop.gif)
+{{< img-center src="/uploads/2017/07/07/budget-giftop.gif">}}
 
 Basically, this is the place where you try define (for a project):
 
@@ -97,4 +95,3 @@ When a Budget is approved you have the possibility to automatically update the P
 {{< img-center src="/uploads/2017/06/22/project_status_correction.png" >}}
 
 {{< img-center src="/uploads/2017/06/22/correction_modal.png" >}}
-
