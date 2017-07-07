@@ -4,8 +4,6 @@ title: Planning
 weight: 40
 
 ---
-
-
 ## Overview
 
 The planning is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota.
@@ -36,5 +34,4 @@ On the top you have three buttons, from the left:
 
 All your teammates are listed on the left, to allocate a person you just need to click on the intersection between the day and the person name.
 
-![](/uploads/2017/07/07/planning-allocate.gif)
-
+{{< img-center src="/uploads/2017/07/07/planning-allocate.gif">}}
