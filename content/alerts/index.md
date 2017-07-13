@@ -48,7 +48,7 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-![](/uploads/2017/07/13/too%20fast%20.png)
+{{< img-center src="/uploads/2017/07/13/too%20fast%20.png" >}}
 
 It means that your Budget Consumption which is equal to the days of your project’s timesheet is higher then the Project Status.
 
