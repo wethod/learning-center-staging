@@ -4,6 +4,8 @@ title: Alerts
 weight: 21
 
 ---
+
+
 ## Overview
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -48,23 +50,33 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-The problem depends on:
+It means that your Budget Consumption which is equal to the days of your project’s timesheet is higher then the Project Status.
 
-* Project probability
+For example if you have a Timesheet = 11/12, this means that you have 1 day left.
 
-* The last project status added
+On the other hand with a Project Status = 8/12, according to your PM you will have other 4 days of work.
 
-* Sum of the timetracking hours on the project
+As a result you are in a very bad situation because you will have to do the work of 4 days imposted by the project status in only 1 day left indicated by the Timesheet.
 
-* Margin
+In order to solve this problem you should control if effectively the data of the Timesheet and of the Project Status are right. If these data are right, the PM have to increase the days of work so as a consequence approve also a new Budget.
 
-*How to solve? Increase your project's progress until it's greater then Budget Consumption*
+*
+
+*How to solve? *<span style="font-size: 1rem;"><i>In order to solve this problem you should control if effectively the data of the Timesheet and of the Project Status are right. If these data are right, the PM have to increase the days of work so as a consequence approve also a new Budget.</i></span>
 
 ### Budget Consumption Too Slow
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-*How to solve? You have to increase your budget progress*
+It means that your Budget Consumption which is equal to the days of your project’s timesheet is lower then the Project Status.
+
+For example if you have a Timesheet = 8/12, this means that you have 4 days left.
+
+On the other hand with a Project Status = 11/12, according to your PM you will have only another day of work.
+
+In this case you are in trouble, in fact according to your Timesheet the PM have planned an excessive Timesheet so the project is spending too much.
+
+*How to solve? *<span style="font-size: 1rem;"><i>The solution to this yellow alert is to first of all check if the data of the project’s Timesheet and Project Status a re right, if they are, the PM have to delete days of work and increase your margin decreasing the budget.</i></span>
 
 ### Project Status / Archived
 
