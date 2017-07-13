@@ -66,6 +66,8 @@ In order to solve this problem you should control if effectively the data of the
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
+{{< img-center src="/uploads/2017/07/13/Too%20slow.png" >}}
+
 It means that your Budget Consumption which is equal to the days of your project’s timesheet is lower then the Project Status.
 
 For example if you have a Timesheet = 8/12, this means that you have 4 days left.
