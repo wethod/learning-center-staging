@@ -48,6 +48,8 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
+![](/uploads/2017/07/13/too%20fast%20.png)
+
 It means that your Budget Consumption which is equal to the days of your project’s timesheet is higher then the Project Status.
 
 For example if you have a Timesheet = 11/12, this means that you have 1 day left.
@@ -72,7 +74,7 @@ On the other hand with a Project Status = 11/12, according to your PM you will h
 
 In this case you are in trouble, in fact according to your Timesheet the PM have planned an excessive Timesheet so the project is spending too much.
 
-*How to solve? The solution to this yellow alert is to first of all check if the data of the project’s Timesheet and Project Status a re right, if they are, the PM have to delete days of work and increase your margin decreasing the budget.* 
+*How to solve? The solution to this yellow alert is to first of all check if the data of the project’s Timesheet and Project Status a re right, if they are, the PM have to delete days of work and increase your margin decreasing the budget.*
 
 ### Project Status / Archived
 
@@ -82,7 +84,7 @@ This alert is shown if you're manager of a finished project which isn't already 
 
 ### Project Probability / Budget
 
-This alert is shown if you're manager of a project with probability greater than 50% but with budget in draft or missing.<span style="font-size: 1rem;">&nbsp;</span>
+This alert is shown if you're manager of a project with probability greater than 50% but with budget in draft or missing.
 
 The aim of this alert is to show to the project manager, given the inconsistent probability.
 
