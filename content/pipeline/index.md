@@ -55,6 +55,14 @@ By clicking on a project you can edit its details or open its: [budget]({{< relr
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
+### Advenced Search 
+
+Which project are you loking for?   |   Advanced Search 
+------------ | -------------
+If you want to search a project from the Name  | project: project’s name 
+
+
+
 ### Invoice Plan
 
 Here you can set when you plan to emit invoices for the project. This section is basically a calendar with some additional information:
