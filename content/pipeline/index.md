@@ -168,7 +168,7 @@ You can also apply Operators:
 
 For example:
 
-* **project:wethod, php ; start:0116+ ; prob:50…75 **
+* ** project:wethod, php ; start:0116+ ; prob:50…75 **
 
 This search operator will find all the projects with name “wethod" or “php”, with a date start grater than January 2016 and a probability between 50% and 75%.
 
@@ -176,7 +176,7 @@ This search operator will find all the projects with name “wethod" or “php�
 
 This search operator will find all the projects of the client Luca, with value less or equal to 25 and with an end date in or after December 2017
 
-* **pm:tomas, luca; prob:30…50; status:2 **
+* ** pm:tomas, luca; prob:30…50; status:2 **
 
 This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.
 
