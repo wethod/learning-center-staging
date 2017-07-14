@@ -62,8 +62,7 @@ If you need to search for a project, you just need to type the keywords on the S
 In the case in which you need a more specific and advanced search, there are some Search Operators that can help you:
 
 If you are looking for a project where:    |    Type in:    |    Note
-
----------------------- |------------------- | ---------------------
+---------------------- |------------------- | ---------
 the Name is Project1  |   project:project1   |   
 the ID is 8           |    id:8              |
 the Value is 25       |    value:25          |
