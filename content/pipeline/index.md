@@ -55,12 +55,30 @@ By clicking on a project you can edit its details or open its: [budget]({{< relr
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
-### Advenced Search 
+### Advenced Search
 
-Which project are you loking for?   |   Advanced Search 
+If you need to search for a project, you just need to type the keywords on the top of the section.
+
+In the case in which you need a more specific and advanced search, there are some Search Operators that can help you!
+
+If you want to search a project from  |  Search Operators
 ------------ | -------------
-If you want to search a project from the Name  | project: project’s name 
-
+the Name   |   project: project’s name 
+its ID       |    id: project’s id
+its Value    |    value: project’s value 
+the Project Type |  type: project’s type
+the Probability  |  prob: project’s probability 
+the Start Date  |  start: month year 
+the End Date   |   end: month year
+its Budget Status |  status: draft/0 , approval/1, approved/2
+ its Invoice Plan Status |   plan: auto/0, manual/1
+its Invoice Plan Offset |    offset: on, off  
+the Client Name |    client: client’s name 
+the Client PO  |       po: client’s PO
+the PM Name or Surname  |   pm: pm’s name 
+the Account Name or Surname  |   account: account’s name/surname
+the Program Name  |   program: program’s name 
+ 
 
 
 ### Invoice Plan
