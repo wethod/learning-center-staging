@@ -4,6 +4,8 @@ title: Pipeline
 weight: 30
 
 ---
+
+
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
@@ -61,25 +63,92 @@ If you need to search for a project, you just need to type the keywords on the S
 
 In the case in which you need a more specific and advanced search, there are some Search Operators that can help you:
 
-If you are looking for a project where:    |    Type in:    |    Note
----------------------- |------------------- | ---------
-the Name is Project1  |   project:project1   |   
-the ID is 8           |    id:8              |
-the Value is 25       |    value:25          |
-the Project Type is Internal   | type:interna  |
-the Probability is 50          |  prob:50      |
-the Start Date is January 2016 | start:0116    |   Write first the month and then the year
-the End Date is December 2017  | end:1217       | Write firts the month and then the year
-the Budget Status is Draft     | status:0       | Available values: 0(draft), 1(approval), 2(approved)
-the Invoice Plan Status is manual  |  plan:1    |  Available values: 0(auto), 1(manual)
-the Invoice Plan Offset is on  |  offset:on  |  Available values on, off
-the Cleint Name is wethodspa   |  client:wethodspa |  
-the Client PO is 30   | po:30  | 
-the PM Name or Surname is Luca | pm:luca          |
-the Account Name or Surname is gb  | account:gb   |
-the Program Name is wethod   |   program:wethod   |
-
-
+<table>
+<thead>
+<tr>
+<th>If you are looking for a project where:</th>
+<th>Type in:</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>the Name is Project1</td>
+<td><i>project:project1</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the ID is 8</td>
+<td><i>id:8</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Value is 25</td>
+<td><i>value:25</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Project Type is Internal</td>
+<td><i>type:interna</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Probability is 50</td>
+<td><i>prob:50</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Start Date is January 2016</td>
+<td><i>start:0116</i></td>
+<td>Write first the month and then the year</td>
+</tr>
+<tr>
+<td>the End Date is December 2017</td>
+<td><i>end:1217</i></td>
+<td>Write firts the month and then the year</td>
+</tr>
+<tr>
+<td>the Budget Status is Draft</td>
+<td><i>status:0</i></td>
+<td>Available values: <b>0(draft)</b>, <b>1(approval)</b>, <b>2(approved)</b></td>
+</tr>
+<tr>
+<td>the Invoice Plan Status is manual</td>
+<td><i>plan:1</i></td>
+<td>Available values: <b>0(auto)</b>, <b>1(manual)</b></td>
+</tr>
+<tr>
+<td>the Invoice Plan Offset is on</td>
+<td><i>offset:on</i></td>
+<td>Available values <b>on</b>, <b>off</b></td>
+</tr>
+<tr>
+<td>the Client Name is wethodspa</td>
+<td><i>client:wethodspa</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Client PO is 30</td>
+<td><i>po:30</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the PM Name or Surname is Luca</td>
+<td><i>pm:luca</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Account Name or Surname is gb</td>
+<td><i>account:gb</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Program Name is wethod</td>
+<td><i>program:wethod</i></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 There are also some **Operators** that can help you searching projects, let’s have a look on them:
 
