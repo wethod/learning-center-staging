@@ -4,8 +4,6 @@ title: Pipeline
 weight: 30
 
 ---
-
-
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
@@ -136,7 +134,7 @@ In the case in which you need a more specific and advanced search, there are som
 
 There are also some **Operators** that can help you searching projects, let’s have a look on them:
 
-<span style="font-size: 1rem;">- If you want to search a project from </span>**values greater than or equal**<span style="font-size: 1rem;"> to x:    </span>**“ x+ ”**
+* If you want to search a project from**values greater than or equal** to x:    **“ x+ ”**
 
 * If you want to search a project from **values less than or equal** to x:    **“ x- ”**
 
