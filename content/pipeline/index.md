@@ -129,10 +129,40 @@ In the case in which you need a more specific and advanced search, there are som
 </tr>
 <tr>
 <td>the Program Name</td>
-<td><b>program:</b> program’s name</td>
+<td><b>program:</b> program’s name<br></td>
 </tr>
 </tbody>
 </table>
+
+There are also some **Operators** that can help you searching projects, let’s have a look on them:
+
+<span style="font-size: 1rem;">- If you want to search a project from </span>**values greater than or equal**<span style="font-size: 1rem;"> to x:    </span>**“ x+ ”**
+
+- If you want to search a project from **values less than or equal** to x:    **“ x- ”**
+
+- If you want to search a project from **values greater or equal** to x **and less or equal** to y:  **“ x…y ”**
+
+- If you want to search a project from **values not equal** to x: **“ !x ”**
+
+You can also apply Operators:
+
+- Operator1 **OR** Operator2:   **“ , ”**
+
+- Operator1 **AND** Operator2:   **“ ; ”**
+
+For example:
+
+- **project: wethod, php ; start: 0116+ ; prob:50…75  **
+
+This search operator will find all the projects with name “wethod" or “php”, with a date start grater than January 2016 and a probability between 50% and 75%.
+
+- **client: luca; value: 25- ; end: 1217+**
+
+This search operator will find all the projects of the client Luca, with value less or equal to 25 and with an end date in or after December 2017
+
+- **pm: tomas, luca; prob:30…50; status: approved **
+
+This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.
 
 ### Invoice Plan
 
