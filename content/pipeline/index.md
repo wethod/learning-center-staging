@@ -55,7 +55,7 @@ By clicking on a project you can edit its details or open its: [budget]({{< relr
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
-### Advenced Search
+### Advanced Search
 
 If you need to search for a project, you just need to type the keywords on the top of the section.
 
