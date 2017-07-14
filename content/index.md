@@ -5,9 +5,9 @@ type: index
 weight: 0
 
 ---
-## What It Is
 
-**THIS IS THE STAGING VERSION OF THE SITE**
+
+## What It Is
 
 WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
 
