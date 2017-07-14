@@ -57,80 +57,20 @@ By clicking on a project you can edit its details or open its: [budget]({{< relr
 
 ### Advanced Search
 
-If you need to search for a project, you just need to type the keywords on the top of the section.
+If you need to search for a project, you just need to type the keywords on the Search Input.
 
-In the case in which you need a more specific and advanced search, there are some Search Operators that can help you!
+In the case in which you need a more specific and advanced search, there are some Search Operators that can help you:
 
-<table>
-<thead>
-<tr>
-<th>If you want to search a project from</th>
-<th>Search Operators</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>the Name</td>
-<td><b>project:</b> project’s name</td>
-</tr>
-<tr>
-<td>its ID</td>
-<td><b>id: </b>project’s id</td>
-</tr>
-<tr>
-<td>its Value</td>
-<td><b>value:</b> project’s value</td>
-</tr>
-<tr>
-<td>the Project Type</td>
-<td><b>type:</b> project’s type</td>
-</tr>
-<tr>
-<td>the Probability</td>
-<td><b>prob:</b> project’s probability</td>
-</tr>
-<tr>
-<td>the Start Date</td>
-<td><b>start:</b> month year</td>
-</tr>
-<tr>
-<td>the End Date</td>
-<td><b>end:</b> month year</td>
-</tr>
-<tr>
-<td>its Budget Status</td>
-<td><b>status:</b> draft/0 , approval/1, approved/2</td>
-</tr>
-<tr>
-<td>its Invoice Plan Status</td>
-<td><b>plan:</b> auto/0, manual/1</td>
-</tr>
-<tr>
-<td>its Invoice Plan Offset</td>
-<td><b>offset:</b> on, off</td>
-</tr>
-<tr>
-<td>the Client Name</td>
-<td><b>client:</b> client’s name</td>
-</tr>
-<tr>
-<td>the Client PO</td>
-<td><b>po:</b> client’s PO</td>
-</tr>
-<tr>
-<td>the PM Name or Surname</td>
-<td><b>pm:</b> pm’s name</td>
-</tr>
-<tr>
-<td>the Account Name or Surname</td>
-<td><b>account:</b> account’s name/surname</td>
-</tr>
-<tr>
-<td>the Program Name</td>
-<td><b>program:</b> program’s name<br></td>
-</tr>
-</tbody>
-</table>
+If you are looking for a project where:    |    Type in:    |    Note
+
+------------ |-------------------
+
+
+
+
+
+
+
 
 There are also some **Operators** that can help you searching projects, let’s have a look on them:
 
@@ -150,20 +90,17 @@ You can also apply Operators:
 
 For example:
 
-* **project: wethod, php ; start: 0116+ ; prob:50…75 **
+* **project:wethod, php ; start:0116+ ; prob:50…75 **
 
 This search operator will find all the projects with name “wethod" or “php”, with a date start grater than January 2016 and a probability between 50% and 75%.
 
-* **client: luca; value: 25- ; end: 1217+**
+* **client:luca; value: 25- ; end:1217+**
 
 This search operator will find all the projects of the client Luca, with value less or equal to 25 and with an end date in or after December 2017
 
-* **pm: tomas, luca; prob:30…50; status: approved **
+* **pm:tomas, luca; prob:30…50; status:2 **
 
 This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.
-
-
-
 
 ### Invoice Plan
 
