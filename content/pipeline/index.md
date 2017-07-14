@@ -63,12 +63,22 @@ In the case in which you need a more specific and advanced search, there are som
 
 If you are looking for a project where:    |    Type in:    |    Note
 
------------- |-------------------
-
-
-
-
-
+---------------------- |------------------- | ---------------------
+the Name is Project1  |   project:project1   |   
+the ID is 8           |    id:8              |
+the Value is 25       |    value:25          |
+the Project Type is Internal   | type:interna  |
+the Probability is 50          |  prob:50      |
+the Start Date is January 2016 | start:0116    |   Write first the month and then the year
+the End Date is December 2017  | end:1217       | Write firts the month and then the year
+the Budget Status is Draft     | status:0       | Available values: 0(draft), 1(approval), 2(approved)
+the Invoice Plan Status is manual  |  plan:1    |  Available values: 0(auto), 1(manual)
+the Invoice Plan Offset is on  |  offset:on  |  Available values on, off
+the Cleint Name is wethodspa   |  client:wethodspa |  
+the Client PO is 30   | po:30  | 
+the PM Name or Surname is Luca | pm:luca          |
+the Account Name or Surname is gb  | account:gb   |
+the Program Name is wethod   |   program:wethod   |
 
 
 
