@@ -162,6 +162,9 @@ This search operator will find all the projects of the client Luca, with value l
 
 This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.
 
+
+
+
 ### Invoice Plan
 
 Here you can set when you plan to emit invoices for the project. This section is basically a calendar with some additional information:
