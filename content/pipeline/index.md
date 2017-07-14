@@ -4,6 +4,8 @@ title: Pipeline
 weight: 30
 
 ---
+
+
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
@@ -61,25 +63,76 @@ If you need to search for a project, you just need to type the keywords on the t
 
 In the case in which you need a more specific and advanced search, there are some Search Operators that can help you!
 
-If you want to search a project from  |  Search Operators
------------- | -------------
-the Name   |   project: project’s name 
-its ID       |    id: project’s id
-its Value    |    value: project’s value 
-the Project Type |  type: project’s type
-the Probability  |  prob: project’s probability 
-the Start Date  |  start: month year 
-the End Date   |   end: month year
-its Budget Status |  status: draft/0 , approval/1, approved/2
- its Invoice Plan Status |   plan: auto/0, manual/1
-its Invoice Plan Offset |    offset: on, off  
-the Client Name |    client: client’s name 
-the Client PO  |       po: client’s PO
-the PM Name or Surname  |   pm: pm’s name 
-the Account Name or Surname  |   account: account’s name/surname
-the Program Name  |   program: program’s name 
- 
-
+<table>
+<thead>
+<tr>
+<th>If you want to search a project from</th>
+<th>Search Operators</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>the Name</td>
+<td><b>project:</b> project’s name</td>
+</tr>
+<tr>
+<td>its ID</td>
+<td><b>id: </b>project’s id</td>
+</tr>
+<tr>
+<td>its Value</td>
+<td><b>value:</b> project’s value</td>
+</tr>
+<tr>
+<td>the Project Type</td>
+<td><b>type:</b> project’s type</td>
+</tr>
+<tr>
+<td>the Probability</td>
+<td><b>prob:</b> project’s probability</td>
+</tr>
+<tr>
+<td>the Start Date</td>
+<td><b>start:</b> month year</td>
+</tr>
+<tr>
+<td>the End Date</td>
+<td><b>end:</b> month year</td>
+</tr>
+<tr>
+<td>its Budget Status</td>
+<td><b>status:</b> draft/0 , approval/1, approved/2</td>
+</tr>
+<tr>
+<td>its Invoice Plan Status</td>
+<td><b>plan:</b> auto/0, manual/1</td>
+</tr>
+<tr>
+<td>its Invoice Plan Offset</td>
+<td><b>offset:</b> on, off</td>
+</tr>
+<tr>
+<td>the Client Name</td>
+<td><b>client:</b> client’s name</td>
+</tr>
+<tr>
+<td>the Client PO</td>
+<td><b>po:</b> client’s PO</td>
+</tr>
+<tr>
+<td>the PM Name or Surname</td>
+<td><b>pm:</b> pm’s name</td>
+</tr>
+<tr>
+<td>the Account Name or Surname</td>
+<td><b>account:</b> account’s name/surname</td>
+</tr>
+<tr>
+<td>the Program Name</td>
+<td><b>program:</b> program’s name</td>
+</tr>
+</tbody>
+</table>
 
 ### Invoice Plan
 
