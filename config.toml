@@ -51,13 +51,17 @@ name = "Getting started"
 url = "getting-started/index/"
 weight = 1
 [[menu.other]]
+name = "WETHOD Economics "
+url = "/"
+weight = 1
+[[menu.other]]
 name = "Glossary"
 url = "glossary/index/"
-weight = 2
+weight = 3
 [[menu.other]]
 name = "FAQ"
 url = "faq/index/"
-weight = 1
+weight = 2
 [params]
 author = "Andrea Tombolato"
 copyright = ""
