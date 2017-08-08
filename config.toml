@@ -11,53 +11,53 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.main]]
-name = "Alerts"
-url = "alerts/index/"
-weight = 21
-[[menu.main]]
-name = "Budget"
-url = "budget/index/"
-weight = 31
-[[menu.main]]
 name = "Settings"
 url = "settings/index/"
-weight = 80
+weight = 10
 [[menu.main]]
 name = "Finance"
 url = "finance/index/"
-weight = 70
+weight = 9
 [[menu.main]]
 name = "Reports"
 url = "reports/index/"
-weight = 60
+weight = 8
 [[menu.main]]
 name = "Friday"
 url = "friday/index/"
-weight = 50
+weight = 7
 [[menu.main]]
 name = "Planning"
 url = "planning/index/"
-weight = 40
+weight = 6
+[[menu.main]]
+name = "Budget"
+url = "budget/index/"
+weight = 5
 [[menu.main]]
 name = "Pipeline"
 url = "pipeline/index/"
-weight = 30
+weight = 4
+[[menu.main]]
+name = "Alerts"
+url = "alerts/index/"
+weight = 3
 [[menu.main]]
 name = "Dashboard"
 url = "dashboard/index/"
-weight = 20
+weight = 2
 [[menu.main]]
 name = "Getting started"
 url = "getting-started/index/"
-weight = 10
-[[menu.other]]
-name = "FAQ"
-url = "faq/index/"
-weight = 100
+weight = 1
 [[menu.other]]
 name = "Glossary"
 url = "glossary/index/"
-weight = 110
+weight = 2
+[[menu.other]]
+name = "FAQ"
+url = "faq/index/"
+weight = 1
 [params]
 author = "Andrea Tombolato"
 copyright = ""
